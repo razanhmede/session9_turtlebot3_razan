@@ -1,0 +1,32 @@
+[0.050s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target robot_driver_node[0m
+[0.393s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[35.960s] [ 50%] [32m[1mLinking CXX executable robot_driver_node[0m
+[38.005s] [ 50%] Built target robot_driver_node
+[38.087s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[38.216s] [100%] Built target wall_finder_server
+[38.317s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '0': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[38.614s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp
+[38.654s] -- Install configuration: ""
+[38.656s] -- Execute custom install script
+[38.656s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/turtlebot3robotcpp/robot_driver_node
+[38.656s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/turtlebot3robotcpp/wall_finder_server
+[38.660s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/turtlebot3robotcpp/include/turtlebot3robotcpp/turtlebot3robotcpp/robot_driver_node.hpp
+[38.660s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/turtlebot3robotcpp/include/turtlebot3robotcpp/turtlebot3robotcpp/wall_finder_server.hpp
+[38.661s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/launch/navigator_robot_launch.py
+[38.661s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/package_run_dependencies/turtlebot3robotcpp
+[38.661s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/parent_prefix_path/turtlebot3robotcpp
+[38.661s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/ament_prefix_path.sh
+[38.661s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/ament_prefix_path.dsv
+[38.662s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/path.sh
+[38.662s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/path.dsv
+[38.662s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.bash
+[38.662s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.sh
+[38.663s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.zsh
+[38.663s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.dsv
+[38.664s] -- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.dsv
+[38.712s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/packages/turtlebot3robotcpp
+[38.712s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/cmake/turtlebot3robotcppConfig.cmake
+[38.713s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/cmake/turtlebot3robotcppConfig-version.cmake
+[38.716s] -- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.xml
+[38.720s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '0': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp

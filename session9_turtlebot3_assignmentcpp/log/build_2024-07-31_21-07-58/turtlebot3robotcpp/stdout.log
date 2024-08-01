@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_driver_node[0m
+[ 25%] [32m[1mLinking CXX executable wall_finder_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m

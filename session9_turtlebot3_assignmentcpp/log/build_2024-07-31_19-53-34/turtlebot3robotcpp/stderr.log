@@ -1,0 +1,49 @@
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:17:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 | river::scanCallback([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::callFindClosestWall()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:37:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kshared_from_this[m[K’ is ambiguous
+   37 |     auto result = rclcpp::spin_until_future_complete(this->[01;31m[Kshared_from_this[m[K(), future);
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = RobotDriver][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = RobotDriver][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:42:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdistance[m[K’
+   42 |                     response->x, response->y, response->[01;31m[Kdistance[m[K);
+      |                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::handleServiceResponse(rclcpp::Client<navigation_robot_custom_interfaces::srv::FindClosestWall>::SharedFuture)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:49:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | [01;35m[K_robot_custom_interfaces::srv::FindClosestWall>::SharedFuture future[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

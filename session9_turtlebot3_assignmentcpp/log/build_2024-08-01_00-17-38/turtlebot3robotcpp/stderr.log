@@ -1,0 +1,5 @@
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:[m[K In member function ‘[01m[Kvoid WallFinder::findWallCallback(std::shared_ptr<navigation_robot_custom_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:81:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 | [01;35m[Kgation_robot_custom_interfaces::srv::FindClosestWall::Request> request[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+

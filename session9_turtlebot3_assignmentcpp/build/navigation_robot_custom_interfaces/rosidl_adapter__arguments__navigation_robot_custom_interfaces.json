@@ -1,0 +1,7 @@
+{
+  "package_name": "navigation_robot_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/navigation_robot_custom_interfaces:srv/FindClosestWall.srv",
+    "/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/navigation_robot_custom_interfaces:action/MeasureLapTime.action"
+  ]
+}

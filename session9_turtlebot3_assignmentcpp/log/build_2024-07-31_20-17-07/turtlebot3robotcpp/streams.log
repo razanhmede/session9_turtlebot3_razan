@@ -1,0 +1,32 @@
+[0.071s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.312s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.687s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.957s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.976s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.997s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.246s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.263s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.118s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.338s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.638s] -- Found navigation_robot_custom_interfaces: 0.0.0 (/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake)
+[3.085s] -- Configuring done
+[3.132s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[3.132s]   Cannot find source file:
+[3.132s] 
+[3.132s]     src/wall_finder.cpp
+[3.132s] 
+[3.132s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.132s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.132s] 
+[3.132s] [0m
+[3.160s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[3.160s]   No SOURCES given to target: wall_finder_node
+[3.160s] 
+[3.161s] [0m
+[3.161s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.184s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[3.185s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

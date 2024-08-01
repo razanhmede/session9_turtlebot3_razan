@@ -1,0 +1,7 @@
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In constructor ‘[01m[KRobotDriver::RobotDriver()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:34:53:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(rclcpp::CallbackGroup::SharedPtr {aka std::shared_ptr<rclcpp::CallbackGroup>}) (rclcpp::CallbackGroup::SharedPtr&)[m[K’
+   34 |         [01;31m[Krclcpp::SubscriptionOptions().callback_group(subscription_callback_group)[m[K // Use SubscriptionOptions with callback group
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,193 @@
+[1.798s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.798s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd118c424a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd118dbfd00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd118dbfd00>>, mixin_verb=('build',))
+[2.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.764s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ignore'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ignore_ament_install'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['colcon_pkg']
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'colcon_pkg'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['colcon_meta']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'colcon_meta'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['ros']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ros'
+[2.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_robot_custom_interfaces' with type 'ros.ament_cmake' and name 'navigation_robot_custom_interfaces'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extensions ['ignore', 'ignore_ament_install']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extension 'ignore'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extension 'ignore_ament_install'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extensions ['colcon_pkg']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extension 'colcon_pkg'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extensions ['colcon_meta']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extension 'colcon_meta'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extensions ['ros']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3robotcpp) by extension 'ros'
+[2.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3robotcpp' with type 'ros.ament_cmake' and name 'turtlebot3robotcpp'
+[2.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.907s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install
+[2.935s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/humble
+[2.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.074s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.076s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.077s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.077s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.078s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.078s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.080s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.080s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.080s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_robot_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces', 'merge_install': False, 'path': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/navigation_robot_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.081s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_args' from command line to 'None'
+[4.081s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_target' from command line to 'None'
+[4.087s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.087s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[4.088s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_clean_first' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'cmake_force_configure' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'ament_cmake_args' from command line to 'None'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[4.091s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3robotcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.091s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3robotcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp', 'merge_install': False, 'path': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp', 'symlink_install': False, 'test_result_base': None}
+[4.091s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.095s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/navigation_robot_custom_interfaces' with build type 'ament_cmake'
+[4.095s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/navigation_robot_custom_interfaces'
+[4.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces -- -j4 -l4
+[8.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces -- -j4 -l4
+[8.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces
+[9.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_robot_custom_interfaces)
+[9.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces
+[9.437s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces' for CMake module files
+[9.439s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces' for CMake config files
+[9.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'cmake_prefix_path')
+[9.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.ps1'
+[9.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.dsv'
+[9.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.sh'
+[9.446s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib'
+[9.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'ld_library_path_lib')
+[9.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.ps1'
+[9.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.dsv'
+[9.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.sh'
+[9.449s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/bin'
+[9.449s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/pkgconfig/navigation_robot_custom_interfaces.pc'
+[9.450s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/python3.10/site-packages'
+[9.450s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/bin'
+[9.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.ps1'
+[9.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv'
+[9.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.sh'
+[9.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.bash'
+[9.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.zsh'
+[9.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/colcon-core/packages/navigation_robot_custom_interfaces)
+[10.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_robot_custom_interfaces)
+[10.072s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces' for CMake module files
+[10.073s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces' for CMake config files
+[10.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'cmake_prefix_path')
+[10.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.ps1'
+[10.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.dsv'
+[10.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.sh'
+[10.077s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib'
+[10.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'ld_library_path_lib')
+[10.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.ps1'
+[10.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.dsv'
+[10.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.sh'
+[10.080s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/bin'
+[10.080s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/pkgconfig/navigation_robot_custom_interfaces.pc'
+[10.082s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/python3.10/site-packages'
+[10.083s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/bin'
+[10.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.ps1'
+[10.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv'
+[10.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.sh'
+[10.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.bash'
+[10.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.zsh'
+[10.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/colcon-core/packages/navigation_robot_custom_interfaces)
+[10.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp' with build type 'ament_cmake'
+[10.099s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp'
+[10.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[33.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[33.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3robotcpp)
+[33.832s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp' for CMake module files
+[33.834s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp' for CMake config files
+[33.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3robotcpp', 'cmake_prefix_path')
+[33.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/hook/cmake_prefix_path.ps1'
+[33.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/hook/cmake_prefix_path.dsv'
+[33.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/hook/cmake_prefix_path.sh'
+[33.852s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib'
+[33.853s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/bin'
+[33.853s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/pkgconfig/turtlebot3robotcpp.pc'
+[33.854s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/python3.10/site-packages'
+[33.856s] Level 1:colcon.colcon_core.environment:checking '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/bin'
+[33.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.ps1'
+[33.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.dsv'
+[33.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.sh'
+[33.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.bash'
+[33.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.zsh'
+[33.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/colcon-core/packages/turtlebot3robotcpp)
+[33.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[33.888s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.921s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.017s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/local_setup.ps1'
+[34.020s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/_local_setup_util_ps1.py'
+[34.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/setup.ps1'
+[34.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/local_setup.sh'
+[34.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/_local_setup_util_sh.py'
+[34.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/setup.sh'
+[34.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/local_setup.bash'
+[34.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/setup.bash'
+[34.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/local_setup.zsh'
+[34.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/setup.zsh'

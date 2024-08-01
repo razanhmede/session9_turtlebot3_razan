@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_driver_node[0m
+[ 50%] Built target wall_finder_server
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_driver_node[0m
+[100%] Built target robot_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/turtlebot3robotcpp/robot_driver_node
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/lib/turtlebot3robotcpp/wall_finder_server
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/turtlebot3robotcpp/include/turtlebot3robotcpp/turtlebot3robotcpp/robot_driver_node.hpp
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/turtlebot3robotcpp/include/turtlebot3robotcpp/turtlebot3robotcpp/wall_finder_server.hpp
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/package_run_dependencies/turtlebot3robotcpp
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/parent_prefix_path/turtlebot3robotcpp
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/path.sh
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/environment/path.dsv
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.bash
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.sh
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.zsh
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/local_setup.dsv
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.dsv
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/ament_index/resource_index/packages/turtlebot3robotcpp
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/cmake/turtlebot3robotcppConfig.cmake
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/cmake/turtlebot3robotcppConfig-version.cmake
+-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp/share/turtlebot3robotcpp/package.xml

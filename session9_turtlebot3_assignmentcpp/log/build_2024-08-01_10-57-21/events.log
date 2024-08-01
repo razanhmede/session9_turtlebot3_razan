@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.001189] (navigation_robot_custom_interfaces) JobQueued: {'identifier': 'navigation_robot_custom_interfaces', 'dependencies': OrderedDict()}
+[0.001654] (turtlebot3robotcpp) JobQueued: {'identifier': 'turtlebot3robotcpp', 'dependencies': OrderedDict([('navigation_robot_custom_interfaces', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces')])}
+[0.001756] (navigation_robot_custom_interfaces) JobStarted: {'identifier': 'navigation_robot_custom_interfaces'}
+[0.035384] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'cmake'}
+[0.042425] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'build'}
+[0.043150] (navigation_robot_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'razanhmede'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/razanhmede'), ('OLDPWD', '/home/razanhmede/session9_turtlebot3_razan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '1811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'razanhmede'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'razanhmede'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/razanhmede-VirtualBox:@/tmp/.ICE-unix/1625,unix/razanhmede-VirtualBox:/tmp/.ICE-unix/1625'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ace1047_8476_436d_bde2_6e3185de2a0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RBER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.097136] (-) TimerEvent: {}
+[0.197758] (-) TimerEvent: {}
+[0.265136] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target navigation_robot_custom_interfaces__cpp\n'}
+[0.297972] (-) TimerEvent: {}
+[0.374409] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_navigation_robot_custom_interfaces\n'}
+[0.398213] (-) TimerEvent: {}
+[0.498813] (-) TimerEvent: {}
+[0.565647] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.599076] (-) TimerEvent: {}
+[0.674327] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.699306] (-) TimerEvent: {}
+[0.799888] (-) TimerEvent: {}
+[0.900440] (-) TimerEvent: {}
+[1.000959] (-) TimerEvent: {}
+[1.101571] (-) TimerEvent: {}
+[1.202158] (-) TimerEvent: {}
+[1.302707] (-) TimerEvent: {}
+[1.403628] (-) TimerEvent: {}
+[1.504215] (-) TimerEvent: {}
+[1.605438] (-) TimerEvent: {}
+[1.649900] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.652910] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing navigation_robot_custom_interfaces.egg-info/PKG-INFO\n'}
+[1.654080] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to navigation_robot_custom_interfaces.egg-info/dependency_links.txt\n'}
+[1.655124] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing top-level names to navigation_robot_custom_interfaces.egg-info/top_level.txt\n'}
+[1.664746] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.668163] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.705772] (-) TimerEvent: {}
+[1.764352] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_navigation_robot_custom_interfaces_egg\n'}
+[1.806081] (-) TimerEvent: {}
+[1.851776] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 33%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_cpp\n'}
+[1.906389] (-) TimerEvent: {}
+[2.006929] (-) TimerEvent: {}
+[2.008259] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target navigation_robot_custom_interfaces__rosidl_generator_c\n'}
+[2.107133] (-) TimerEvent: {}
+[2.168037] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.207340] (-) TimerEvent: {}
+[2.308029] (-) TimerEvent: {}
+[2.316682] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c\n'}
+[2.408210] (-) TimerEvent: {}
+[2.508795] (-) TimerEvent: {}
+[2.524003] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.609035] (-) TimerEvent: {}
+[2.709647] (-) TimerEvent: {}
+[2.810277] (-) TimerEvent: {}
+[2.816451] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target navigation_robot_custom_interfaces\n'}
+[2.910453] (-) TimerEvent: {}
+[3.011094] (-) TimerEvent: {}
+[3.029023] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target navigation_robot_custom_interfaces__py\n'}
+[3.112224] (-) TimerEvent: {}
+[3.181246] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target navigation_robot_custom_interfaces__rosidl_generator_py\n'}
+[3.212411] (-) TimerEvent: {}
+[3.313007] (-) TimerEvent: {}
+[3.317438] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.413162] (-) TimerEvent: {}
+[3.454839] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.513369] (-) TimerEvent: {}
+[3.573673] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[100%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.613675] (-) TimerEvent: {}
+[3.623465] (navigation_robot_custom_interfaces) CommandEnded: {'returncode': 0}
+[3.714241] (-) TimerEvent: {}
+[3.815210] (-) TimerEvent: {}
+[3.920414] (-) TimerEvent: {}
+[4.021113] (-) TimerEvent: {}
+[4.121706] (-) TimerEvent: {}
+[4.222259] (-) TimerEvent: {}
+[4.291469] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'install'}
+[4.322739] (-) TimerEvent: {}
+[4.338269] (navigation_robot_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces'], 'cwd': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'razanhmede'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/razanhmede'), ('OLDPWD', '/home/razanhmede/session9_turtlebot3_razan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '1811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'razanhmede'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'razanhmede'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/razanhmede-VirtualBox:@/tmp/.ICE-unix/1625,unix/razanhmede-VirtualBox:/tmp/.ICE-unix/1625'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ace1047_8476_436d_bde2_6e3185de2a0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RBER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.372207] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.374291] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.374765] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_robot_custom_interfaces\n'}
+[4.376621] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.h\n'}
+[4.377047] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.h\n'}
+[4.377245] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.h\n'}
+[4.377579] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.h\n'}
+[4.377726] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.377981] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.h\n'}
+[4.378251] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.h\n'}
+[4.378555] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.h\n'}
+[4.378891] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.h\n'}
+[4.379193] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.sh\n'}
+[4.379524] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.dsv\n'}
+[4.380940] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[4.381333] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.397258] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[4.398689] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__builder.hpp\n'}
+[4.399229] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.hpp\n'}
+[4.399497] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__traits.hpp\n'}
+[4.399754] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.hpp\n'}
+[4.400085] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__builder.hpp\n'}
+[4.400465] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.hpp\n'}
+[4.400772] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__traits.hpp\n'}
+[4.401056] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.hpp\n'}
+[4.402099] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.402486] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.402828] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.403939] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[4.409103] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.421977] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[4.422775] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.422987] (-) TimerEvent: {}
+[4.423341] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.423727] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.sh\n'}
+[4.424218] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.dsv\n'}
+[4.425010] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.427402] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.427894] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.428292] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.431226] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/__init__.py\n'}
+[4.431680] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.433144] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.433645] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.433926] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/__init__.py\n'}
+[4.435096] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time.py\n'}
+[4.435747] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c\n'}
+[4.436087] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so\n'}
+[4.436948] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.438066] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.438600] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.438938] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/__init__.py\n'}
+[4.439198] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall.py\n'}
+[4.439430] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c\n'}
+[4.439722] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.440351] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.440901] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.441297] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.idl\n'}
+[4.441630] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.idl\n'}
+[4.442353] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.srv\n'}
+[4.442891] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Request.msg\n'}
+[4.443031] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Response.msg\n'}
+[4.443642] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.action\n'}
+[4.444319] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_robot_custom_interfaces\n'}
+[4.444831] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_robot_custom_interfaces\n'}
+[4.445692] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[4.449246] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.449462] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.sh\n'}
+[4.449609] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.dsv\n'}
+[4.449751] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.bash\n'}
+[4.449939] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.sh\n'}
+[4.450105] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.zsh\n'}
+[4.450224] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.dsv\n'}
+[4.450350] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv\n'}
+[4.516788] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/packages/navigation_robot_custom_interfaces\n'}
+[4.517264] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.517577] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.517877] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.518197] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.518445] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.518724] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.519311] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.521104] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig.cmake\n'}
+[4.521494] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig-version.cmake\n'}
+[4.521821] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.xml\n'}
+[4.522229] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_c.so\n'}
+[4.522727] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.523297] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.523457] (-) TimerEvent: {}
+[4.523808] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.525509] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so\n'}
+[4.526305] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.527594] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.623656] (-) TimerEvent: {}
+[4.724294] (-) TimerEvent: {}
+[4.724809] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces'...\n"}
+[4.725136] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action'...\n"}
+[4.725284] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv'...\n"}
+[4.733207] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_py.so\n'}
+[4.733617] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.734096] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.734445] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.734747] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.735088] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.735422] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.735654] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.735893] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.736228] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.736558] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.736755] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.736876] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.736998] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.737325] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.737449] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.737599] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.737747] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.743006] (navigation_robot_custom_interfaces) CommandEnded: {'returncode': 0}
+[4.827391] (-) TimerEvent: {}
+[4.928347] (-) TimerEvent: {}
+[5.029748] (-) TimerEvent: {}
+[5.130280] (-) TimerEvent: {}
+[5.231219] (-) TimerEvent: {}
+[5.333947] (-) TimerEvent: {}
+[5.434639] (-) TimerEvent: {}
+[5.535235] (-) TimerEvent: {}
+[5.636411] (-) TimerEvent: {}
+[5.747666] (-) TimerEvent: {}
+[5.809503] (navigation_robot_custom_interfaces) JobEnded: {'identifier': 'navigation_robot_custom_interfaces', 'rc': 0}
+[5.812507] (turtlebot3robotcpp) JobStarted: {'identifier': 'turtlebot3robotcpp'}
+[5.847793] (-) TimerEvent: {}
+[5.910918] (turtlebot3robotcpp) JobProgress: {'identifier': 'turtlebot3robotcpp', 'progress': 'cmake'}
+[5.912690] (turtlebot3robotcpp) JobProgress: {'identifier': 'turtlebot3robotcpp', 'progress': 'build'}
+[5.921367] (turtlebot3robotcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp', '--', '-j4', '-l4'], 'cwd': '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'razanhmede'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/razanhmede'), ('OLDPWD', '/home/razanhmede/session9_turtlebot3_razan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '1811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'razanhmede'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'razanhmede'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/razanhmede-VirtualBox:@/tmp/.ICE-unix/1625,unix/razanhmede-VirtualBox:/tmp/.ICE-unix/1625'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ace1047_8476_436d_bde2_6e3185de2a0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RBER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble')]), 'shell': False}
+[5.948220] (-) TimerEvent: {}
+[6.049230] (-) TimerEvent: {}
+[6.149772] (-) TimerEvent: {}
+[6.240437] (turtlebot3robotcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_driver_node\x1b[0m\n'}
+[6.250209] (-) TimerEvent: {}
+[6.350769] (-) TimerEvent: {}
+[6.419309] (turtlebot3robotcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o\x1b[0m\n'}
+[6.458165] (-) TimerEvent: {}
+[6.559121] (-) TimerEvent: {}
+[6.659876] (-) TimerEvent: {}
+[6.760506] (-) TimerEvent: {}
+[6.861348] (-) TimerEvent: {}
+[6.961924] (-) TimerEvent: {}
+[7.062872] (-) TimerEvent: {}
+[7.163541] (-) TimerEvent: {}
+[7.264169] (-) TimerEvent: {}
+[7.364821] (-) TimerEvent: {}
+[7.465379] (-) TimerEvent: {}
+[7.565926] (-) TimerEvent: {}
+[7.666726] (-) TimerEvent: {}
+[7.768134] (-) TimerEvent: {}
+[7.868853] (-) TimerEvent: {}
+[7.969459] (-) TimerEvent: {}
+[8.070021] (-) TimerEvent: {}
+[8.171106] (-) TimerEvent: {}
+[8.271605] (-) TimerEvent: {}
+[8.372241] (-) TimerEvent: {}
+[8.472760] (-) TimerEvent: {}
+[8.573399] (-) TimerEvent: {}
+[8.673932] (-) TimerEvent: {}
+[8.774550] (-) TimerEvent: {}
+[8.875176] (-) TimerEvent: {}
+[8.975887] (-) TimerEvent: {}
+[9.076779] (-) TimerEvent: {}
+[9.177423] (-) TimerEvent: {}
+[9.278046] (-) TimerEvent: {}
+[9.378791] (-) TimerEvent: {}
+[9.479861] (-) TimerEvent: {}
+[9.580824] (-) TimerEvent: {}
+[9.681380] (-) TimerEvent: {}
+[9.784176] (-) TimerEvent: {}
+[9.885084] (-) TimerEvent: {}
+[9.985861] (-) TimerEvent: {}
+[10.086733] (-) TimerEvent: {}
+[10.188587] (-) TimerEvent: {}
+[10.290211] (-) TimerEvent: {}
+[10.390856] (-) TimerEvent: {}
+[10.491442] (-) TimerEvent: {}
+[10.592091] (-) TimerEvent: {}
+[10.693368] (-) TimerEvent: {}
+[10.794195] (-) TimerEvent: {}
+[10.895127] (-) TimerEvent: {}
+[10.995748] (-) TimerEvent: {}
+[11.096325] (-) TimerEvent: {}
+[11.197031] (-) TimerEvent: {}
+[11.297710] (-) TimerEvent: {}
+[11.398568] (-) TimerEvent: {}
+[11.499328] (-) TimerEvent: {}
+[11.599933] (-) TimerEvent: {}
+[11.700518] (-) TimerEvent: {}
+[11.801290] (-) TimerEvent: {}
+[11.908386] (-) TimerEvent: {}
+[12.009734] (-) TimerEvent: {}
+[12.110403] (-) TimerEvent: {}
+[12.210969] (-) TimerEvent: {}
+[12.311707] (-) TimerEvent: {}
+[12.412581] (-) TimerEvent: {}
+[12.513257] (-) TimerEvent: {}
+[12.613990] (-) TimerEvent: {}
+[12.714636] (-) TimerEvent: {}
+[12.815193] (-) TimerEvent: {}
+[12.915828] (-) TimerEvent: {}
+[13.016502] (-) TimerEvent: {}
+[13.117529] (-) TimerEvent: {}
+[13.218394] (-) TimerEvent: {}
+[13.318836] (-) TimerEvent: {}
+[13.419356] (-) TimerEvent: {}
+[13.519923] (-) TimerEvent: {}
+[13.620836] (-) TimerEvent: {}
+[13.721423] (-) TimerEvent: {}
+[13.822316] (-) TimerEvent: {}
+[13.922969] (-) TimerEvent: {}
+[14.026161] (-) TimerEvent: {}
+[14.127027] (-) TimerEvent: {}
+[14.227654] (-) TimerEvent: {}
+[14.328676] (-) TimerEvent: {}
+[14.430247] (-) TimerEvent: {}
+[14.530952] (-) TimerEvent: {}
+[14.631824] (-) TimerEvent: {}
+[14.732804] (-) TimerEvent: {}
+[14.833371] (-) TimerEvent: {}
+[14.933935] (-) TimerEvent: {}
+[15.034500] (-) TimerEvent: {}
+[15.135116] (-) TimerEvent: {}
+[15.235628] (-) TimerEvent: {}
+[15.336414] (-) TimerEvent: {}
+[15.437107] (-) TimerEvent: {}
+[15.537702] (-) TimerEvent: {}
+[15.639048] (-) TimerEvent: {}
+[15.739809] (-) TimerEvent: {}
+[15.840389] (-) TimerEvent: {}
+[15.940980] (-) TimerEvent: {}
+[16.041720] (-) TimerEvent: {}
+[16.142480] (-) TimerEvent: {}
+[16.243065] (-) TimerEvent: {}
+[16.344122] (-) TimerEvent: {}
+[16.444702] (-) TimerEvent: {}
+[16.545356] (-) TimerEvent: {}
+[16.645844] (-) TimerEvent: {}
+[16.746465] (-) TimerEvent: {}
+[16.847101] (-) TimerEvent: {}
+[16.866641] (turtlebot3robotcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:105:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[16.867076] (turtlebot3robotcpp) StderrLine: {'line': b'  105 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[16.867239] (turtlebot3robotcpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.947302] (-) TimerEvent: {}
+[17.047914] (-) TimerEvent: {}
+[17.148529] (-) TimerEvent: {}
+[17.249150] (-) TimerEvent: {}
+[17.349740] (-) TimerEvent: {}
+[17.450589] (-) TimerEvent: {}
+[17.551175] (-) TimerEvent: {}
+[17.651820] (-) TimerEvent: {}
+[17.752649] (-) TimerEvent: {}
+[17.853215] (-) TimerEvent: {}
+[17.953772] (-) TimerEvent: {}
+[18.054384] (-) TimerEvent: {}
+[18.154921] (-) TimerEvent: {}
+[18.255551] (-) TimerEvent: {}
+[18.356269] (-) TimerEvent: {}
+[18.456866] (-) TimerEvent: {}
+[18.557523] (-) TimerEvent: {}
+[18.658106] (-) TimerEvent: {}
+[18.758665] (-) TimerEvent: {}
+[18.859253] (-) TimerEvent: {}
+[18.959841] (-) TimerEvent: {}
+[19.060374] (-) TimerEvent: {}
+[19.160978] (-) TimerEvent: {}
+[19.261526] (-) TimerEvent: {}
+[19.362456] (-) TimerEvent: {}
+[19.463140] (-) TimerEvent: {}
+[19.563824] (-) TimerEvent: {}
+[19.664912] (-) TimerEvent: {}
+[19.765512] (-) TimerEvent: {}
+[19.866018] (-) TimerEvent: {}
+[19.966628] (-) TimerEvent: {}
+[20.067303] (-) TimerEvent: {}
+[20.167849] (-) TimerEvent: {}
+[20.268453] (-) TimerEvent: {}
+[20.369016] (-) TimerEvent: {}
+[20.469856] (-) TimerEvent: {}
+[20.570400] (-) TimerEvent: {}
+[20.671002] (-) TimerEvent: {}
+[20.771459] (-) TimerEvent: {}
+[20.872182] (-) TimerEvent: {}
+[20.972654] (-) TimerEvent: {}
+[21.073123] (-) TimerEvent: {}
+[21.173691] (-) TimerEvent: {}
+[21.274308] (-) TimerEvent: {}
+[21.375100] (-) TimerEvent: {}
+[21.475588] (-) TimerEvent: {}
+[21.576261] (-) TimerEvent: {}
+[21.676818] (-) TimerEvent: {}
+[21.777641] (-) TimerEvent: {}
+[21.878323] (-) TimerEvent: {}
+[21.979151] (-) TimerEvent: {}
+[22.079864] (-) TimerEvent: {}
+[22.180481] (-) TimerEvent: {}
+[22.281158] (-) TimerEvent: {}
+[22.381725] (-) TimerEvent: {}
+[22.482310] (-) TimerEvent: {}
+[22.583143] (-) TimerEvent: {}
+[22.684309] (-) TimerEvent: {}
+[22.785128] (-) TimerEvent: {}
+[22.886102] (-) TimerEvent: {}
+[22.987436] (-) TimerEvent: {}
+[23.088635] (-) TimerEvent: {}
+[23.189646] (-) TimerEvent: {}
+[23.290338] (-) TimerEvent: {}
+[23.391150] (-) TimerEvent: {}
+[23.491979] (-) TimerEvent: {}
+[23.592787] (-) TimerEvent: {}
+[23.693482] (-) TimerEvent: {}
+[23.794133] (-) TimerEvent: {}
+[23.894856] (-) TimerEvent: {}
+[23.995590] (-) TimerEvent: {}
+[24.096552] (-) TimerEvent: {}
+[24.197484] (-) TimerEvent: {}
+[24.298111] (-) TimerEvent: {}
+[24.398758] (-) TimerEvent: {}
+[24.499564] (-) TimerEvent: {}
+[24.600156] (-) TimerEvent: {}
+[24.648293] (turtlebot3robotcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1\n'}
+[24.649681] (turtlebot3robotcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2\n'}
+[24.650230] (turtlebot3robotcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.654651] (turtlebot3robotcpp) CommandEnded: {'returncode': 2}
+[24.700381] (-) TimerEvent: {}
+[24.801103] (-) TimerEvent: {}
+[24.890677] (turtlebot3robotcpp) JobEnded: {'identifier': 'turtlebot3robotcpp', 'rc': 2}
+[24.904737] (-) TimerEvent: {}
+[24.905735] (-) EventReactorShutdown: {}

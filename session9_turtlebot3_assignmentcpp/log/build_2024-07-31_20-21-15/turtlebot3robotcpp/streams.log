@@ -1,0 +1,45 @@
+[0.015s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target robot_driver_node[0m
+[0.075s] [ 25%] [32mBuilding CXX object CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o[0m
+[0.088s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kwall_finder_server.hpp: No such file or directory
+[0.088s]     1 | #include [01;31m[K"wall_finder_server.hpp"[m[K
+[0.088s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.088s] compilation terminated.
+[0.089s] gmake[2]: *** [CMakeFiles/wall_finder_server.dir/build.make:76: CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o] Error 1
+[0.089s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_finder_server.dir/all] Error 2
+[0.089s] gmake[1]: *** Waiting for unfinished jobs....
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[3.166s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.166s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:17:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.166s]    17 | river::scanCallback([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg[m[K) {
+[3.166s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.167s] 
+[3.169s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::callFindClosestWall()[m[K’:
+[3.169s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:37:54:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[3.169s]    37 |     auto result = rclcpp::spin_until_future_complete([01;31m[Kshared_from_this[m[K(), future);
+[3.169s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.170s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.170s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+[3.170s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[3.170s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = RobotDriver][m[K’
+[3.170s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[3.170s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.170s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = RobotDriver][m[K’
+[3.170s]   807 |       [01;36m[Kshared_from_this[m[K()
+[3.170s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.170s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[3.170s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[3.170s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.170s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[3.171s]   807 |       [01;36m[Kshared_from_this[m[K()
+[3.171s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.171s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::handleServiceResponse(rclcpp::Client<navigation_robot_custom_interfaces::srv::FindClosestWall>::SharedFuture)[m[K’:
+[3.171s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:49:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.171s]    49 | [01;35m[K_robot_custom_interfaces::srv::FindClosestWall>::SharedFuture future[m[K) {
+[3.171s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.171s] 
+[6.726s] gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+[6.726s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2
+[6.726s] gmake: *** [Makefile:146: all] Error 2
+[6.731s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

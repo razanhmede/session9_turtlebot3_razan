@@ -1,0 +1,39 @@
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In constructor ‘[01m[KRobotDriver::RobotDriver()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:30:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotDriver::create_subscription<sensor_msgs::msg::LaserScan>(const char [6], int, std::_Bind_helper<false, void (RobotDriver::*)(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >), RobotDriver*, const std::_Placeholder<1>&>::type, rclcpp::SensorDataQoS, rclcpp::CallbackGroup::SharedPtr&)[m[K’
+   30 |    subscriber = [01;31m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   31 | [01;31m[K       "/scan", 10, std::bind(&RobotDriver::scan_callback, this, std::placeholders::_1),[m[K
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+   32 | [01;31m[K       rclcpp::SensorDataQoS(), subscription_callback_group[m[K
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+
+   33 | [01;31m[K   )[m[K;
+      |    [01;31m[K~[m[K                                                                   
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:7[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:30:72:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::SensorDataQoS[m[K’ is not derived from ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’
+   30 |    subscriber = [01;36m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   31 | [01;36m[K       "/scan", 10, std::bind(&RobotDriver::scan_callback, this, std::placeholders::_1),[m[K
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+   32 | [01;36m[K       rclcpp::SensorDataQoS(), subscription_callback_group[m[K
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            
+
+   33 | [01;36m[K   )[m[K;
+      |    [01;36m[K~[m[K                                                                   
+
+gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:[m[K In member function ‘[01m[Kvoid WallFinder::findWallCallback(std::shared_ptr<navigation_robot_custom_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:93:25:[m[K [01;31m[Kerror: [m[K‘[01m[KdetermineRotationDirection[m[K’ was not declared in this scope
+   93 |     bool rotate_right = [01;31m[KdetermineRotationDirection[m[K();
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:104:16:[m[K [01;31m[Kerror: [m[K‘[01m[KhasFoundCorrectDirection[m[K’ was not declared in this scope
+  104 |         done = [01;31m[KhasFoundCorrectDirection[m[K();
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:[m[K At global scope:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:126:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool WallFinder::determineRotationDirection()[m[K’
+  126 | bool [01;31m[KWallFinder[m[K::determineRotationDirection() {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:126:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool WallFinder::determineRotationDirection()[m[K’
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/wall_finder_server.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass WallFinder[m[K’ defined here
+    9 | class [01;36m[KWallFinder[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:149:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool WallFinder::hasFoundCorrectDirection()[m[K’
+  149 | bool [01;31m[KWallFinder[m[K::hasFoundCorrectDirection() {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:149:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool WallFinder::hasFoundCorrectDirection()[m[K’
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/wall_finder_server.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass WallFinder[m[K’ defined here
+    9 | class [01;36m[KWallFinder[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wall_finder_server.dir/build.make:76: CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_finder_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

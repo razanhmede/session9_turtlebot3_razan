@@ -1,0 +1,8 @@
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/wall_finder_server.hpp:19:101:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 | tion_robot_custom_interfaces::srv::FindClosestWall::Response> response[01;31m[K)[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                        [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/wall_finder_server.dir/build.make:76: CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_finder_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

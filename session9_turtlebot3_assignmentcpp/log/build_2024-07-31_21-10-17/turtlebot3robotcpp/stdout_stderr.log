@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_driver_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable wall_finder_server[0m
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver_node.hpp: No such file or directory
+    1 | #include [01;31m[K"robot_driver_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/wall_finder_server.dir/build.make:207: wall_finder_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_finder_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,51 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[ 75%] Built target wall_finder_server
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In constructor ‘[01m[KRobotDriver::RobotDriver()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:13:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+   13 |     client = this->create_client<[01;31m[Kcustom_interfaces[m[K::srv::FindClosestWall>("find_closest_wall");
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[Kbuiltin_interfaces[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:13:20:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |     client = this->[01;31m[Kcreate_client<custom_interfaces::srv::FindClosestWall>[m[K("find_closest_wall");
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:13:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotDriver::create_client<<expression error> >(const char [18])[m[K’
+   13 | [01;31m[Kthis->create_client<custom_interfaces::srv::FindClosestWall>("find_closest_wall")[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:7[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:13:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | [01;31m[Kthis->create_client<custom_interfaces::srv::FindClosestWall>("find_closest_wall")[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotDriver[m[K’ has no member named ‘[01m[Kcreate_timer[m[K’; did you mean ‘[01m[Kcreate_wall_timer[m[K’?
+   28 |     timer = this->[01;31m[Kcreate_timer[m[K(1s, std::bind(&RobotDriver::call_find_closest_wall, this));
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                   [32m[Kcreate_wall_timer[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kinfo[m[K’
+   48 |         this->get_logger().[01;31m[Kinfo[m[K("Obstacle detected very close at %.2f meters. Stopping and turning sharply.", data->ranges[0]);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:52:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kinfo[m[K’
+   52 |         this->get_logger().[01;31m[Kinfo[m[K("Obstacle detected nearby at %.2f meters. Turning slightly.", data->ranges[35]);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kinfo[m[K’
+   56 |         this->get_logger().[01;31m[Kinfo[m[K("No immediate obstacle detected. Moving forward with slight speed.");
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::call_find_closest_wall()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:73:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kinfo[m[K’
+   73 |         this->get_logger().[01;31m[Kinfo[m[K("Closest wall at x: %.2f, y: %.2f, distance: %.2f", response->x, response->y, response->z);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:75:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kerror[m[K’
+   75 |         this->get_logger().[01;31m[Kerror[m[K("Service call failed");
+      |                            [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

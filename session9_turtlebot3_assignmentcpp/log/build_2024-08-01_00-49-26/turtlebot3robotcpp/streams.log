@@ -1,0 +1,18 @@
+[0.138s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.397s] [ 50%] Built target robot_driver_node
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[0.563s] [ 75%] [32mBuilding CXX object CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o[0m
+[11.961s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.961s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:197:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[11.961s]   197 | [01;31m[K}[m[K
+[11.962s]       | [01;31m[K^[m[K
+[11.962s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/wall_finder_server.cpp:196:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[11.962s]   196 |     return
+[11.962s]       |           [01;31m[K^[m[K
+[11.962s]       |           [32m[K;[m[K
+[11.962s]   197 | [32m[K}[m[K
+[11.962s]       | [32m[K~[m[K          
+[23.107s] gmake[2]: *** [CMakeFiles/wall_finder_server.dir/build.make:76: CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o] Error 1
+[23.107s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_finder_server.dir/all] Error 2
+[23.108s] gmake: *** [Makefile:146: all] Error 2
+[23.111s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

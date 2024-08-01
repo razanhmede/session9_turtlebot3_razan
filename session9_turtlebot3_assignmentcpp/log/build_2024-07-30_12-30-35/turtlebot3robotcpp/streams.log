@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.437s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.630s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.727s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.767s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.814s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.831s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.837s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.011s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.017s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.204s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.242s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.333s] -- Looking for pthread.h
+[1.422s] -- Looking for pthread.h - found
+[1.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.512s] -- Found Threads: TRUE  
+[1.727s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.908s] -- Found navigation_robot_custom_interfaces: 0.0.0 (/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake)
+[2.165s] -- Configuring done
+[2.176s] -- Generating done
+[2.178s] -- Build files have been written to: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp
+[2.190s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '0': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp
+[2.191s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[2.277s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[5.402s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::callFindClosestWall()[m[K’:
+[5.402s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:60:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(RobotDriver*, rclcpp::Client<navigation_robot_custom_interfaces::srv::FindClosestWall>::FutureAndRequestId&)[m[K’
+[5.402s]    60 |     auto result = [01;31m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+[5.402s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.402s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.402s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+[5.402s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[5.402s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[5.402s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[5.402s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.403s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.403s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:60:54:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(RobotDriver*)this[m[K’ (type ‘[01m[KRobotDriver*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[5.403s]    60 |     auto result = rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, future);
+[5.403s]       |                                                      [01;36m[K^~~~[m[K
+[5.403s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.403s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+[5.403s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[5.403s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[5.403s]   117 | [01;36m[Kspin_until_future_complete[m[K(
+[5.403s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.403s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.403s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:60:53:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KRobotDriver*[m[K’
+[5.403s]    60 |     auto result = [01;36m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+[5.404s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.405s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.406s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/robot_driver_node.hpp:4[m[K,
+[5.406s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:1[m[K:
+[5.406s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/robot_driver_node.cpp:65:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct navigation_robot_custom_interfaces::srv::FindClosestWall_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdistance[m[K’
+[5.406s]    65 |                     response->x, response->y, response->[01;31m[Kdistance[m[K);
+[5.406s]       |                                                         [01;31m[K^~~~~~~~[m[K
+[8.623s] gmake[2]: *** [CMakeFiles/robot_driver_node.dir/build.make:76: CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o] Error 1
+[8.624s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_driver_node.dir/all] Error 2
+[8.624s] gmake: *** [Makefile:146: all] Error 2
+[8.626s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
