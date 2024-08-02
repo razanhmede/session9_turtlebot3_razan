@@ -26,5 +26,5 @@ This project also includes the corresponding header files for these source code 
 ```sh
     ros2 launch turtlebot3robotcpp navigator_robot_launch.py
 ```
-   
+After running this launch file, you will be able to launch both gazebo turtlebot3 simulation and the source code files of the project.   
 
