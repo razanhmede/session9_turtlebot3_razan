@@ -1,1 +1,5 @@
-/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/navigation_robot_custom_interfaces/rosidl_cmake/srv/FindClosestWall_Response.msg
+
+# Response part
+float32 x
+float32 y
+float32 z

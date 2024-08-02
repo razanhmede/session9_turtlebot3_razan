@@ -31,15 +31,24 @@ ament_target_dependencies(lap_time_server
   navigation_robot_custom_interfaces
   geometry_msgs
   sensor_msgs
+  nav_msgs
   tf2
   tf2_ros
 )
+add_executable(lap_time_client src/lap_time_client.cpp)
+ament_target_dependencies(lap_time_client
+  rclcpp
+  rclcpp_action
+  navigation_robot_custom_interfaces
+)
+
 
 # Install targets
 install(TARGETS
   robot_driver_node
   wall_finder_server
   lap_time_server
+  lap_time_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

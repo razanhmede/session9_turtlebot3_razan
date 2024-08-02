@@ -1,0 +1,4 @@
+[ 25%] Built target robot_driver_node
+[ 37%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[ 75%] Built target wall_finder_server

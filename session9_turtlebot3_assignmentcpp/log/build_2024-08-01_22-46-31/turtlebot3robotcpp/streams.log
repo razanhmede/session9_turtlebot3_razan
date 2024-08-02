@@ -1,0 +1,53 @@
+[0.060s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.395s] [ 33%] Built target robot_driver_node
+[0.602s] [ 50%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[7.640s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeServer::handle_goal(const GoalUUID&, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[7.640s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:44:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.640s]    44 | rclcpp_action::GoalResponse LapTimeServer::handle_goal([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K, std::shared_ptr<const MeasureLapTime::Goal> goal)
+[7.640s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.641s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:44:138:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.641s]    44 | Response LapTimeServer::handle_goal(const rclcpp_action::GoalUUID & uuid, [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+[7.641s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.641s] 
+[7.641s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse LapTimeServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’:
+[7.641s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:50:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.641s]    50 | rclcpp_action::CancelResponse LapTimeServer::handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleMeasureLapTime> goal_handle[m[K)
+[7.641s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.660s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Kvoid LapTimeServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’:
+[7.661s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:74:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLapTimeServer::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (LapTimeServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >), LapTimeServer*, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&>::type, rclcpp::CallbackGroup::SharedPtr&)[m[K’
+[7.661s]    74 |     feedback_timer_ = [01;31m[Kthis->create_wall_timer([m[K
+[7.661s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.661s]    75 | [01;31m[K        std::chrono::milliseconds(200),[m[K
+[7.661s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       
+[7.661s]    76 | [01;31m[K        std::bind(&LapTimeServer::publish_feedback, this, goal_handle),[m[K
+[7.661s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.661s]    77 | [01;31m[K        timer_callback_group_[m[K
+[7.661s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                 
+[7.661s]    78 | [01;31m[K    )[m[K;
+[7.661s]       |     [01;31m[K~[m[K                                         
+[7.661s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.662s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:8[m[K,
+[7.662s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[7.662s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[7.662s]   238 |   [01;36m[Kcreate_wall_timer[m[K(
+[7.662s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.662s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.662s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.663s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:8[m[K,
+[7.663s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[7.663s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)>][m[K’:
+[7.663s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:74:46:[m[K   required from here
+[7.663s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[7.663s]   110 | [01;31m[KNode[m[K::create_wall_timer(
+[7.663s]       | [01;31m[K^~~~[m[K
+[7.663s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[7.663s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[13.603s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[13.604s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lap_time_server.dir/all] Error 2
+[13.604s] gmake: *** [Makefile:146: all] Error 2
+[13.608s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

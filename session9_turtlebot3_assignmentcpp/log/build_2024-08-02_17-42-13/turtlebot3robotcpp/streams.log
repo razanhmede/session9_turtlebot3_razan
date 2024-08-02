@@ -1,0 +1,451 @@
+[0.010s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp -DCMAKE_INSTALL_PREFIX=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.710s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.760s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.766s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.775s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.883s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.886s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.006s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.037s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.101s] -- Looking for pthread.h
+[1.190s] -- Looking for pthread.h - found
+[1.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.339s] -- Found Threads: TRUE  
+[1.593s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.804s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.907s] -- Found navigation_robot_custom_interfaces: 0.0.0 (/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake)
+[2.203s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.274s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.760s] -- Configuring done
+[2.786s] -- Generating done
+[2.789s] -- Build files have been written to: /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp
+[2.802s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '0': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp -DCMAKE_INSTALL_PREFIX=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp
+[2.803s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[2.862s] [ 12%] [32mBuilding CXX object CMakeFiles/robot_driver_node.dir/src/robot_driver_node.cpp.o[0m
+[2.862s] [ 25%] [32mBuilding CXX object CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o[0m
+[2.864s] [ 37%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[2.866s] [ 50%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[6.826s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In constructor ‘[01m[KLapTimeServer::LapTimeServer()[m[K’:
+[6.826s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:10:96:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[6.826s]    10 |     service_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[6.826s]       |                                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.826s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:11:101:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[6.826s]    11 |     subscription_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[6.826s]       |                                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.826s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:12:94:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[6.826s]    12 |     timer_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[6.826s]       |                                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.901s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Kvoid LapTimeServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’:
+[6.901s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:76:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’})
+[6.901s]    76 |     start_time = std::chrono::steady_clock::now([01;31m[K)[m[K;
+[6.901s]       |                                                 [01;31m[K^[m[K
+[6.901s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[6.901s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[6.901s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.902s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.902s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)[m[K’
+[6.902s]    91 |   [01;36m[Koperator[m[K=(const Time & rhs);
+[6.902s]       |   [01;36m[K^~~~~~~~[m[K
+[6.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst rclcpp::Time&[m[K’
+[6.902s]    91 |   operator=([01;36m[Kconst Time & rhs[m[K);
+[6.902s]       |             [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[6.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const Time&)[m[K’
+[6.903s]   101 |   [01;36m[Koperator[m[K=(const builtin_interfaces::msg::Time & time_msg);
+[6.903s]       |   [01;36m[K^~~~~~~~[m[K
+[6.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.903s]   101 |   operator=([01;36m[Kconst builtin_interfaces::msg::Time & time_msg[m[K);
+[6.903s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.922s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[6.922s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[6.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[6.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.922s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.922s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.922s] /usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (LapTimeServer::*)(), LapTimeServer*, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&>[m[K’:
+[6.923s] [01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (LapTimeServer::*)(), LapTimeServer*, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&>[m[K’
+[6.923s] [01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (LapTimeServer::*)(); _BoundArgs = {LapTimeServer*, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&}][m[K’
+[6.923s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:80:18:[m[K   required from here
+[6.923s] [01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+[6.923s]   755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+[6.923s]       |                               [01;31m[K~~~~~[m[K
+[6.923s]   756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+[6.923s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.923s]   757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+[6.923s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.923s] [01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (2 >= (((long unsigned int)std::integral_constant<long unsigned int, 0>::value) + 1)) : (2 == (((long unsigned int)std::integral_constant<long unsigned int, 0>::value) + 1)))[m[K’ evaluates to false
+[6.956s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:75:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+[6.956s]    85 |         if (is_near_start_position() && ([32m[Kstd::chrono::steady_clock::now()[m[K [01;31m[K-[m[K [34m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.956s]       |                                          [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+[6.956s]       |                                                                        [32m[K|[m[K    [34m[K|[m[K
+[6.956s]       |                                                                        [32m[K|[m[K    [34m[Krclcpp::Time[m[K
+[6.956s]       |                                                                        [32m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K
+[6.956s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.957s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.957s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.957s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.957s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[6.957s]   577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.957s]       |     [01;36m[K^~~~~~~~[m[K
+[6.958s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.958s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:77:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[6.958s]    85 |         if (is_near_start_position() && (std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.958s]       |                                                                             [01;36m[K^~~~~~~~~~[m[K
+[6.958s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.958s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.958s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.958s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.958s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[6.958s]  1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.958s]       |     [01;36m[K^~~~~~~~[m[K
+[6.958s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.958s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:77:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[6.959s]    85 |         if (is_near_start_position() && (std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.959s]       |                                                                             [01;36m[K^~~~~~~~~~[m[K
+[6.959s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.959s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.959s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.959s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.959s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.960s]   660 |       [01;36m[Koperator[m[K-(const duration<_Rep1, _Period1>& __lhs,
+[6.960s]       |       [01;36m[K^~~~~~~~[m[K
+[6.960s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.965s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:77:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+[6.965s]    85 |         if (is_near_start_position() && (std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.965s]       |                                                                             [01;36m[K^~~~~~~~~~[m[K
+[6.965s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.965s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.966s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.966s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.966s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.966s]  1030 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.966s]       |       [01;36m[K^~~~~~~~[m[K
+[6.966s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.966s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:77:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep2, _Period2>[m[K’
+[6.966s]    85 |         if (is_near_start_position() && (std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.966s]       |                                                                             [01;36m[K^~~~~~~~~~[m[K
+[6.966s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.966s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.966s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.967s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.967s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+[6.967s]  1042 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.967s]       |       [01;36m[K^~~~~~~~[m[K
+[6.967s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.967s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:85:77:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration2>[m[K’
+[6.967s]    85 |         if (is_near_start_position() && (std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K) > std::chrono::seconds(1)) {
+[6.967s]       |                                                                             [01;36m[K^~~~~~~~~~[m[K
+[6.971s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:97:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+[6.971s]    87 |             result->total_time = std::chrono::duration<double>([32m[Kstd::chrono::steady_clock::now()[m[K [01;31m[K-[m[K [34m[Kstart_time[m[K).count();
+[6.971s]       |                                                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+[6.971s]       |                                                                                              [32m[K|[m[K    [34m[K|[m[K
+[6.972s]       |                                                                                              [32m[K|[m[K    [34m[Krclcpp::Time[m[K
+[6.972s]       |                                                                                              [32m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K
+[6.972s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.972s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.972s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.972s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.972s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[6.972s]   577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.972s]       |     [01;36m[K^~~~~~~~[m[K
+[6.973s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.973s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[6.973s]    87 |             result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.973s]       |                                                                                                   [01;36m[K^~~~~~~~~~[m[K
+[6.973s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.973s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.974s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.974s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.974s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[6.974s]  1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.974s]       |     [01;36m[K^~~~~~~~[m[K
+[6.974s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.974s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[6.974s]    87 |             result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.974s]       |                                                                                                   [01;36m[K^~~~~~~~~~[m[K
+[6.974s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.974s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.975s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.975s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.975s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.975s]   660 |       [01;36m[Koperator[m[K-(const duration<_Rep1, _Period1>& __lhs,
+[6.975s]       |       [01;36m[K^~~~~~~~[m[K
+[6.975s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.975s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+[6.981s]    87 |             result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.982s]       |                                                                                                   [01;36m[K^~~~~~~~~~[m[K
+[6.982s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.982s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.982s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.982s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.982s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.982s]  1030 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.982s]       |       [01;36m[K^~~~~~~~[m[K
+[6.982s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.982s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep2, _Period2>[m[K’
+[6.982s]    87 |             result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.982s]       |                                                                                                   [01;36m[K^~~~~~~~~~[m[K
+[6.982s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.983s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.983s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.983s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.983s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+[6.983s]  1042 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.983s]       |       [01;36m[K^~~~~~~~[m[K
+[6.983s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.983s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:87:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration2>[m[K’
+[6.983s]    87 |             result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.983s]       |                                                                                                   [01;36m[K^~~~~~~~~~[m[K
+[6.983s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:93:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+[6.983s]    97 |         result->total_time = std::chrono::duration<double>([32m[Kstd::chrono::steady_clock::now()[m[K [01;31m[K-[m[K [34m[Kstart_time[m[K).count();
+[6.983s]       |                                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+[6.984s]       |                                                                                          [32m[K|[m[K    [34m[K|[m[K
+[6.984s]       |                                                                                          [32m[K|[m[K    [34m[Krclcpp::Time[m[K
+[6.984s]       |                                                                                          [32m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K
+[6.984s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.984s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.984s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.984s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.984s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[6.984s]   577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.984s]       |     [01;36m[K^~~~~~~~[m[K
+[6.984s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.984s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[6.984s]    97 |         result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.984s]       |                                                                                               [01;36m[K^~~~~~~~~~[m[K
+[6.984s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[6.985s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.985s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.985s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.985s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[6.985s]  1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.985s]       |     [01;36m[K^~~~~~~~[m[K
+[6.985s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.985s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[6.985s]    97 |         result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.985s]       |                                                                                               [01;36m[K^~~~~~~~~~[m[K
+[6.985s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.985s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.986s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.986s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.986s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.986s]   660 |       [01;36m[Koperator[m[K-(const duration<_Rep1, _Period1>& __lhs,
+[6.986s]       |       [01;36m[K^~~~~~~~[m[K
+[6.986s] [01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.986s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+[6.986s]    97 |         result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.986s]       |                                                                                               [01;36m[K^~~~~~~~~~[m[K
+[6.986s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.986s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.986s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.987s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.987s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+[6.987s]  1030 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.987s]       |       [01;36m[K^~~~~~~~[m[K
+[6.987s] [01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.987s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep2, _Period2>[m[K’
+[6.987s]    97 |         result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.987s]       |                                                                                               [01;36m[K^~~~~~~~~~[m[K
+[6.987s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[6.987s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[6.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[6.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.987s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[6.987s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.988s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+[6.988s]  1042 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+[6.988s]       |       [01;36m[K^~~~~~~~[m[K
+[6.988s] [01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.988s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:97:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration2>[m[K’
+[6.988s]    97 |         result->total_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+[6.988s]       |                                                                                               [01;36m[K^~~~~~~~~~[m[K
+[6.988s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K At global scope:
+[6.988s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:103:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeServer::publish_elapsed_time(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’
+[6.988s]   103 | void [01;31m[KLapTimeServer[m[K::publish_elapsed_time(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
+[6.988s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[6.988s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.988s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:22:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid LapTimeServer::publish_elapsed_time()[m[K’
+[6.988s]    22 |     void [01;36m[Kpublish_elapsed_time[m[K();
+[6.989s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.989s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[6.989s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeServer[m[K’ defined here
+[6.989s]    11 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node
+[6.989s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.091s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeClient::onFeedback(const SharedPtr&, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> > >)[m[K’:
+[7.091s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:46:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.091s]    46 |     [01;35m[Kconst MeasureLapTimeGoalHandle::SharedPtr & goal_handle[m[K,
+[7.091s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.091s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeClient::onResult(const rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::WrappedResult&)[m[K’:
+[7.091s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:63:41:[m[K [01;31m[Kerror: [m[Kjump to case label
+[7.091s]    63 |         case rclcpp_action::ResultCode::[01;31m[KABORTED[m[K:
+[7.091s]       |                                         [01;31m[K^~~~~~~[m[K
+[7.092s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:58:31:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::stringstream result_message[m[K’
+[7.092s]    58 |             std::stringstream [01;36m[Kresult_message[m[K;
+[7.092s]       |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.103s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:66:41:[m[K [01;31m[Kerror: [m[Kjump to case label
+[7.103s]    66 |         case rclcpp_action::ResultCode::[01;31m[KCANCELED[m[K:
+[7.103s]       |                                         [01;31m[K^~~~~~~~[m[K
+[7.103s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:58:31:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::stringstream result_message[m[K’
+[7.104s]    58 |             std::stringstream [01;36m[Kresult_message[m[K;
+[7.104s]       |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.104s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:69:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[7.104s]    69 |         [01;31m[Kdefault[m[K:
+[7.104s]       |         [01;31m[K^~~~~~~[m[K
+[7.104s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:58:31:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::stringstream result_message[m[K’
+[7.104s]    58 |             std::stringstream [01;36m[Kresult_message[m[K;
+[7.104s]       |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.104s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:56:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUNKNOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[7.104s]    56 |     switch [01;35m[K([m[Kresult.code) {
+[7.104s]       |            [01;35m[K^[m[K
+[7.104s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:56:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCANCELED[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[7.104s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:56:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KABORTED[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[7.117s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.117s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:79:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid LapTimeClient::sendGoal()[m[K’ is private within this context
+[7.117s]    79 |     [01;31m[Kclient_node->sendGoal()[m[K;
+[7.117s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.118s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:13:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+[7.118s]    13 | void [01;36m[KLapTimeClient[m[K::sendGoal() {
+[7.118s]       |      [01;36m[K^~~~~~~~~~~~~[m[K
+[8.662s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+[8.662s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[8.662s] gmake[1]: *** Waiting for unfinished jobs....
+[10.192s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.193s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[10.193s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[10.193s] /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp: In instantiation of ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’:
+[10.193s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.193s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.193s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:244:14:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>) ()[m[K’
+[10.193s]   244 |     [01;31m[Kcallback_()[m[K;
+[10.193s]       |     [01;31m[K~~~~~~~~~^~[m[K
+[10.194s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[10.194s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[10.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[10.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.194s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:4[m[K,
+[10.194s]                  from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[10.194s] [01m[K/usr/include/c++/11/functional:501:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args, class _Result> _Result std::_Bind<_Functor(_Bound_args ...)>::operator()(_Args&& ...) [with _Args = {_Args ...}; _Result = _Result; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.194s]   501 |         [01;36m[Koperator[m[K()(_Args&&... __args)
+[10.194s]       |         [01;36m[K^~~~~~~~[m[K
+[10.194s] [01m[K/usr/include/c++/11/functional:501:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.195s] /usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (LapTimeServer::*)(); _CallArgs = std::tuple<>; _BArgs = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’:
+[10.195s] [01m[K/usr/include/c++/11/functional:468:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs> using _Res_type = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<_Functor, _CallArgs, _Bound_args ...> [with _CallArgs = std::tuple<>; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.195s] [01m[K/usr/include/c++/11/functional:498:9:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.195s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.195s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.195s] [01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (LapTimeServer::*&(LapTimeServer*&, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&))()>[m[K’
+[10.195s]   464 |         using [01;31m[K_Res_type_impl[m[K
+[10.195s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.195s] /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp: In instantiation of ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’:
+[10.195s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.195s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.195s] [01m[K/usr/include/c++/11/functional:513:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args, class _Result> _Result std::_Bind<_Functor(_Bound_args ...)>::operator()(_Args&& ...) const [with _Args = {_Args ...}; _Result = _Result; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.196s]   513 |         [01;36m[Koperator[m[K()(_Args&&... __args) const
+[10.196s]       |         [01;36m[K^~~~~~~~[m[K
+[10.196s] [01m[K/usr/include/c++/11/functional:513:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.196s] /usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (LapTimeServer::* const)(); _CallArgs = std::tuple<>; _BArgs = {LapTimeServer* const, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’:
+[10.196s] [01m[K/usr/include/c++/11/functional:475:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs, template<class _CallArgs, template<class> class __cv_quals> template<class _Functor, class ... _Bound_args> template<class> class __cv_quals> using _Res_type_cv = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<typename __cv_quals<typename std::enable_if<(bool)((std::tuple_size<_Tuple>::value + 1)), _Functor>::type>::type, _CallArgs, typename __cv_quals<_Bound_args>::type ...> [with _CallArgs = std::tuple<>; __cv_quals = std::add_const; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.196s] [01m[K/usr/include/c++/11/functional:510:9:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.196s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.197s] [01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (LapTimeServer::* const&(LapTimeServer* const&, const std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&))()>[m[K’
+[10.197s]   464 |         using [01;31m[K_Res_type_impl[m[K
+[10.197s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.197s] /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp: In instantiation of ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’:
+[10.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.197s] [01m[K/usr/include/c++/11/functional:531:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args, class _Result> _Result std::_Bind<_Functor(_Bound_args ...)>::operator()(_Args&& ...) volatile [with _Args = {_Args ...}; _Result = _Result; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.197s]   531 |         [01;36m[Koperator[m[K()(_Args&&... __args) volatile
+[10.197s]       |         [01;36m[K^~~~~~~~[m[K
+[10.197s] [01m[K/usr/include/c++/11/functional:531:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.198s] /usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (LapTimeServer::* volatile)(); _CallArgs = std::tuple<>; _BArgs = {LapTimeServer* volatile, volatile std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’:
+[10.198s] [01m[K/usr/include/c++/11/functional:475:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs, template<class _CallArgs, template<class> class __cv_quals> template<class _Functor, class ... _Bound_args> template<class> class __cv_quals> using _Res_type_cv = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<typename __cv_quals<typename std::enable_if<(bool)((std::tuple_size<_Tuple>::value + 1)), _Functor>::type>::type, _CallArgs, typename __cv_quals<_Bound_args>::type ...> [with _CallArgs = std::tuple<>; __cv_quals = std::add_volatile; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.198s] [01m[K/usr/include/c++/11/functional:528:9:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.198s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.198s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.198s] [01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (LapTimeServer::* volatile&(LapTimeServer* volatile&, volatile std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&))()>[m[K’
+[10.198s]   464 |         using [01;31m[K_Res_type_impl[m[K
+[10.198s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.198s] /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp: In instantiation of ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’:
+[10.198s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.199s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.199s] [01m[K/usr/include/c++/11/functional:543:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args, class _Result> _Result std::_Bind<_Functor(_Bound_args ...)>::operator()(_Args&& ...) const volatile [with _Args = {_Args ...}; _Result = _Result; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.199s]   543 |         [01;36m[Koperator[m[K()(_Args&&... __args) const volatile
+[10.199s]       |         [01;36m[K^~~~~~~~[m[K
+[10.199s] [01m[K/usr/include/c++/11/functional:543:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.199s] /usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (LapTimeServer::* const volatile)(); _CallArgs = std::tuple<>; _BArgs = {LapTimeServer* const volatile, const volatile std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’:
+[10.199s] [01m[K/usr/include/c++/11/functional:475:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs, template<class _CallArgs, template<class> class __cv_quals> template<class _Functor, class ... _Bound_args> template<class> class __cv_quals> using _Res_type_cv = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<typename __cv_quals<typename std::enable_if<(bool)((std::tuple_size<_Tuple>::value + 1)), _Functor>::type>::type, _CallArgs, typename __cv_quals<_Bound_args>::type ...> [with _CallArgs = std::tuple<>; __cv_quals = std::add_cv; _Functor = void (LapTimeServer::*)(); _Bound_args = {LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >}][m[K’
+[10.199s] [01m[K/usr/include/c++/11/functional:540:9:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback_delegate() [with CallbackT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void()> >::value>::type* <anonymous> = 0; FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.199s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:230:32:[m[K   required from ‘[01m[Kvoid rclcpp::GenericTimer<FunctorT, <anonymous> >::execute_callback() [with FunctorT = std::_Bind<void (LapTimeServer::*(LapTimeServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >))()>; typename std::enable_if<(rclcpp::function_traits::same_arguments<FunctorT, std::function<void()> >::value || rclcpp::function_traits::same_arguments<FunctorT, std::function<void(rclcpp::TimerBase&)> >::value)>::type* <anonymous> = 0][m[K’
+[10.200s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:227:3:[m[K   required from here
+[10.200s] [01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (LapTimeServer::* const volatile&(LapTimeServer* const volatile&, const volatile std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >&))()>[m[K’
+[10.200s]   464 |         using [01;31m[K_Res_type_impl[m[K
+[10.200s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.998s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[10.998s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[16.468s] [ 62%] [32m[1mLinking CXX executable robot_driver_node[0m
+[17.227s] [ 62%] Built target robot_driver_node
+[19.159s] [ 75%] [32m[1mLinking CXX executable wall_finder_server[0m
+[19.913s] [ 75%] Built target wall_finder_server
+[19.915s] gmake: *** [Makefile:146: all] Error 2
+[19.918s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

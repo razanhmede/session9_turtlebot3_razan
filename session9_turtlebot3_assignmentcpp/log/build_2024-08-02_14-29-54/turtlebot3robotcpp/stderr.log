@@ -1,0 +1,331 @@
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef LAP_TIME_CLIENT_HPP_
+      | 
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KLapTimeClient::LapTimeClient()[m[K’
+    3 | [01;31m[KLapTimeClient[m[K::LapTimeClient()
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KLapTimeClient::LapTimeClient(LapTimeClient&&)[m[K’
+    7 | class [01;36m[KLapTimeClient[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeClient::LapTimeClient(const LapTimeClient&)[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:13:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeClient::LapTimeClient(rclcpp::Node::SharedPtr)[m[K’
+   13 |     [01;36m[KLapTimeClient[m[K(rclcpp::Node::SharedPtr node);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+    7 | class [01;36m[KLapTimeClient[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeClient::send_goal()[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   17 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Action server not available after waiting");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   17 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Action server not available after waiting");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:17:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   17 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Action server not available after waiting");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In lambda function:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:28:42:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::shared_ptr<rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >[m[K’ to ‘[01m[Kstd::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> > >[m[K’
+   28 |             this->goal_response_callback([01;31m[Kgoal_handle[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~[m[K
+      |                                          [01;31m[K|[m[K
+      |                                          [01;31m[Kconst std::shared_ptr<rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >[m[K
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:19:89:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid LapTimeClient::goal_response_callback(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> > >)[m[K’
+   19 |     void goal_response_callback([01;36m[Kstd::shared_future<GoalHandleMeasureLapTime::SharedPtr> future[m[K);
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeClient::goal_response_callback(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> > >)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   48 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was rejected by server");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was rejected by server");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was rejected by server");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was rejected by server");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   48 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was rejected by server");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   48 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was rejected by server");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   52 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal accepted by server, waiting for result");
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal accepted by server, waiting for result");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal accepted by server, waiting for result");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal accepted by server, waiting for result");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   52 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal accepted by server, waiting for result");
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   52 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal accepted by server, waiting for result");
+      |                       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeClient::result_callback(const rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::WrappedResult&)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   59 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   59 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   59 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Result received: Total lap time: %.2f seconds", result.result->total_time);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   62 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was aborted");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was aborted");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was aborted");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was aborted");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   62 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was aborted");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:62:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   62 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was aborted");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   65 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was canceled");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   65 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was canceled");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   65 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was canceled");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   65 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Goal was canceled");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   65 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was canceled");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:65:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   65 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Goal was canceled");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   68 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Unknown result code");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Unknown result code");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Unknown result code");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Unknown result code");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   68 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Unknown result code");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:68:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   68 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Unknown result code");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K At global scope:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:75:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeClient::feedback_callback(rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::SharedPtr, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> > >)[m[K’
+   75 | void [01;31m[KLapTimeClient[m[K::feedback_callback(GoalHandleMeasureLapTime::SharedPtr, const std::shared_ptr<const MeasureLapTime::Feedback> feedback)
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:75:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LapTimeClient::feedback_callback(rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::SharedPtr, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> > >)[m[K’
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+    7 | class [01;36m[KLapTimeClient[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:85:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   85 |     rclcpp::[01;31m[Kspin[m[K(action_client);
+      |             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp: In instantiation of ‘[01m[Ktypename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&) [with ActionT = navigation_robot_custom_interfaces::action::MeasureLapTime; NodeT = LapTimeClient*; typename rclcpp_action::Client<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Client<navigation_robot_custom_interfaces::action::MeasureLapTime> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>; rcl_action_client_options_t = rcl_action_client_options_s][m[K’:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:12:107:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:112:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_node_base_interface[m[K’
+  112 |     [01;31m[Knode->get_node_base_interface[m[K(),
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:113:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_node_graph_interface[m[K’
+  113 |     [01;31m[Knode->get_node_graph_interface[m[K(),
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:114:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_node_logging_interface[m[K’
+  114 |     [01;31m[Knode->get_node_logging_interface[m[K(),
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:115:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LapTimeClient[m[K’ has no member named ‘[01m[Kget_node_waitables_interface[m[K’
+  115 |     [01;31m[Knode->get_node_waitables_interface[m[K(),
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:34[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:4[m[K,
+                 from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = LapTimeClient; _Args = {}; _Tp = LapTimeClient][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = LapTimeClient; _Args = {}; _Tp = LapTimeClient; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<LapTimeClient>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = LapTimeClient; _Alloc = std::allocator<LapTimeClient>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = LapTimeClient; _Alloc = std::allocator<LapTimeClient>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LapTimeClient>; _Args = {}; _Tp = LapTimeClient; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LapTimeClient>; _Args = {}; _Tp = LapTimeClient][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = LapTimeClient; _Alloc = std::allocator<LapTimeClient>; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = LapTimeClient; _Args = {}][m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:83:57:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLapTimeClient::LapTimeClient()[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:13:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KLapTimeClient::LapTimeClient(rclcpp::Node::SharedPtr)[m[K’
+   13 |     [01;36m[KLapTimeClient[m[K(rclcpp::Node::SharedPtr node);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:13:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KLapTimeClient::LapTimeClient(const LapTimeClient&)[m[K’
+    7 | class [01;36m[KLapTimeClient[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KLapTimeClient::LapTimeClient(LapTimeClient&&)[m[K’
+[01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:7:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

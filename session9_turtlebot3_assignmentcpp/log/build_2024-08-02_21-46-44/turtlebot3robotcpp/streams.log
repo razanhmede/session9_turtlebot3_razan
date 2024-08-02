@@ -1,0 +1,20 @@
+[0.090s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.510s] [ 25%] Built target lap_time_client
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.590s] [ 50%] Built target robot_driver_node
+[0.621s] [ 75%] Built target wall_finder_server
+[0.779s] [ 87%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[16.974s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Kvoid LapTimeServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’:
+[16.974s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:109:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kis_done[m[K’
+[16.974s]   109 |                     if (!goal_handle->[01;31m[Kis_done[m[K()) {
+[16.975s]       |                                       [01;31m[K^~~~~~~[m[K
+[17.002s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:125:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kis_done[m[K’
+[17.002s]   125 |             if (!goal_handle->[01;31m[Kis_done[m[K()) {
+[17.002s]       |                               [01;31m[K^~~~~~~[m[K
+[17.014s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:139:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kis_done[m[K’
+[17.015s]   139 |         if (!goal_handle->[01;31m[Kis_done[m[K()) {
+[17.015s]       |                           [01;31m[K^~~~~~~[m[K
+[30.403s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[30.404s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[30.405s] gmake: *** [Makefile:146: all] Error 2
+[30.411s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

@@ -1,0 +1,18 @@
+[0.158s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[1.053s] [ 25%] Built target robot_driver_node
+[1.256s] [ 50%] Built target lap_time_client
+[1.557s] [ 62%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[15.797s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:30:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeServer::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[15.798s]    30 | void [01;31m[KLapTimeServer[m[K::odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+[15.798s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[15.798s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[15.798s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:21:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid LapTimeServer::odometry_callback(const Odometry&)[m[K’
+[15.798s]    21 |     void [01;36m[Kodometry_callback[m[K(const nav_msgs::msg::Odometry &msg);
+[15.798s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.798s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeServer[m[K’ defined here
+[15.798s]    11 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node
+[15.798s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[23.790s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[23.790s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[23.791s] gmake: *** [Makefile:146: all] Error 2
+[23.802s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

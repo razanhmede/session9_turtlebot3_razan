@@ -1,0 +1,58 @@
+[0.019s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.082s] [ 25%] Built target robot_driver_node
+[0.105s] [ 37%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[0.144s] [ 75%] Built target wall_finder_server
+[3.912s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:13:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeClient::sendGoal()[m[K’
+[3.912s]    13 | void [01;31m[KLapTimeClient[m[K::sendGoal() {
+[3.912s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.912s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:13:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LapTimeClient::sendGoal()[m[K’
+[3.912s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.912s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+[3.912s]     9 | class [01;36m[KLapTimeClient[m[K : public rclcpp::Node
+[3.913s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:36:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeClient::onGoalResponse(const SharedPtr&)[m[K’
+[3.913s]    36 | void [01;31m[KLapTimeClient[m[K::onGoalResponse(const MeasureLapTimeGoalHandle::SharedPtr & goal_handle) {
+[3.913s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:36:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LapTimeClient::onGoalResponse(const SharedPtr&)[m[K’
+[3.913s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+[3.913s]     9 | class [01;36m[KLapTimeClient[m[K : public rclcpp::Node
+[3.913s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:45:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeClient::onFeedback(rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::SharedPtr, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> > >)[m[K’
+[3.913s]    45 | void [01;31m[KLapTimeClient[m[K::onFeedback(
+[3.913s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:45:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LapTimeClient::onFeedback(rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::SharedPtr, std::shared_ptr<const navigation_robot_custom_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> > >)[m[K’
+[3.913s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.913s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+[3.913s]     9 | class [01;36m[KLapTimeClient[m[K : public rclcpp::Node
+[3.913s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.943s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:47:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MeasureLapTime = navigation_robot_custom_interfaces::action::MeasureLapTime[m[K’ is private within this context
+[3.943s]    47 |     const std::[01;31m[Kshared_ptr<const MeasureLapTime::Feedback>[m[K feedback
+[3.943s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.943s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.943s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:17:11:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.943s]    17 |     using [01;36m[KMeasureLapTime[m[K = navigation_robot_custom_interfaces::action::MeasureLapTime;
+[3.943s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.944s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:55:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LapTimeClient::onResult(const rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::WrappedResult&)[m[K’
+[3.944s]    55 | void [01;31m[KLapTimeClient[m[K::onResult(const MeasureLapTimeGoalHandle::WrappedResult & result) {
+[3.944s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.944s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:55:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LapTimeClient::onResult(const rclcpp_action::ClientGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>::WrappedResult&)[m[K’
+[3.944s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.944s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeClient[m[K’ defined here
+[3.944s]     9 | class [01;36m[KLapTimeClient[m[K : public rclcpp::Node
+[3.944s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.950s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.950s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:79:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class LapTimeClient[m[K’ {aka ‘[01m[Kclass LapTimeClient[m[K’} has no member named ‘[01m[KsendGoal[m[K’; did you mean ‘[01m[Ksend_goal[m[K’?
+[3.950s]    79 |     client_node->[01;31m[KsendGoal[m[K();
+[3.950s]       |                  [01;31m[K^~~~~~~~[m[K
+[3.950s]       |                  [32m[Ksend_goal[m[K
+[4.752s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+[4.752s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[4.752s] gmake[1]: *** Waiting for unfinished jobs....
+[12.182s] [ 87%] [32m[1mLinking CXX executable lap_time_server[0m
+[13.833s] [ 87%] Built target lap_time_server
+[13.835s] gmake: *** [Makefile:146: all] Error 2
+[13.838s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

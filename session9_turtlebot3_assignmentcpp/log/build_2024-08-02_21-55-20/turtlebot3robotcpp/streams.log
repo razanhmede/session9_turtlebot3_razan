@@ -1,0 +1,52 @@
+[0.127s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.545s] [ 25%] Built target robot_driver_node
+[0.760s] [ 50%] Built target lap_time_client
+[0.857s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.929s] [ 62%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[2.581s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[2.581s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:67:2:[m[K [01;31m[Kerror: [m[K#endif without #if
+[2.582s]    67 | #[01;31m[Kendif[m[K  // TURTLEBOT3ROBOTCPP__LAP_TIME_SERVER_HPP_
+[2.582s]       |  [01;31m[K^~~~~[m[K
+[9.765s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:10:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KLapTimeServer::LapTimeServer()[m[K’
+[9.766s]    10 | [01;31m[KLapTimeServer[m[K::LapTimeServer() : Node("lap_time_server") {
+[9.766s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[9.766s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[9.766s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KLapTimeServer::LapTimeServer(LapTimeServer&&)[m[K’
+[9.767s]    11 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node
+[9.767s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[9.767s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:11:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeServer::LapTimeServer(const LapTimeServer&)[m[K’
+[9.767s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:14:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeServer::LapTimeServer(const rclcpp::NodeOptions&)[m[K’
+[9.767s]    14 |     explicit [01;36m[KLapTimeServer[m[K(const rclcpp::NodeOptions & options = rclcpp::NodeOptions());
+[9.767s]       |              [01;36m[K^~~~~~~~~~~~~[m[K
+[9.767s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeServer[m[K’ defined here
+[9.767s]    11 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node
+[9.768s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[9.915s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In member function ‘[01m[Kvoid LapTimeServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime> >)[m[K’:
+[9.915s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:109:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kget_status[m[K’
+[9.916s]   109 |                     if (goal_handle->[01;31m[Kget_status[m[K() == rclcpp_action::GoalStatus::SUCCEEDED ||
+[9.916s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[9.916s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:109:81:[m[K [01;31m[Kerror: [m[K‘[01m[KSUCCEEDED[m[K’ is not a member of ‘[01m[Krclcpp_action::GoalStatus[m[K’ {aka ‘[01m[Kaction_msgs::msg::GoalStatus_<std::allocator<void> >[m[K’}
+[9.916s]   109 |                     if (goal_handle->get_status() == rclcpp_action::GoalStatus::[01;31m[KSUCCEEDED[m[K ||
+[9.916s]       |                                                                                 [01;31m[K^~~~~~~~~[m[K
+[9.917s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:110:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kget_status[m[K’
+[9.917s]   110 |                         goal_handle->[01;31m[Kget_status[m[K() == rclcpp_action::GoalStatus::CANCELED) {
+[9.917s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[9.917s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:110:81:[m[K [01;31m[Kerror: [m[K‘[01m[KCANCELED[m[K’ is not a member of ‘[01m[Krclcpp_action::GoalStatus[m[K’ {aka ‘[01m[Kaction_msgs::msg::GoalStatus_<std::allocator<void> >[m[K’}
+[9.917s]   110 |                         goal_handle->get_status() == rclcpp_action::GoalStatus::[01;31m[KCANCELED[m[K) {
+[9.917s]       |                                                                                 [01;31m[K^~~~~~~~[m[K
+[9.925s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:128:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kget_status[m[K’
+[9.925s]   128 |             if (goal_handle->[01;31m[Kget_status[m[K() == rclcpp_action::GoalStatus::ACTIVE) {
+[9.925s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[9.925s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:128:73:[m[K [01;31m[Kerror: [m[K‘[01m[KACTIVE[m[K’ is not a member of ‘[01m[Krclcpp_action::GoalStatus[m[K’ {aka ‘[01m[Kaction_msgs::msg::GoalStatus_<std::allocator<void> >[m[K’}
+[9.926s]   128 |             if (goal_handle->get_status() == rclcpp_action::GoalStatus::[01;31m[KACTIVE[m[K) {
+[9.926s]       |                                                                         [01;31m[K^~~~~~[m[K
+[9.926s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:142:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<navigation_robot_custom_interfaces::action::MeasureLapTime>[m[K’} has no member named ‘[01m[Kget_status[m[K’
+[9.926s]   142 |         if (goal_handle->[01;31m[Kget_status[m[K() == rclcpp_action::GoalStatus::ACTIVE) {
+[9.927s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[9.928s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:142:69:[m[K [01;31m[Kerror: [m[K‘[01m[KACTIVE[m[K’ is not a member of ‘[01m[Krclcpp_action::GoalStatus[m[K’ {aka ‘[01m[Kaction_msgs::msg::GoalStatus_<std::allocator<void> >[m[K’}
+[9.929s]   142 |         if (goal_handle->get_status() == rclcpp_action::GoalStatus::[01;31m[KACTIVE[m[K) {
+[9.929s]       |                                                                     [01;31m[K^~~~~~[m[K
+[12.112s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[12.113s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[12.114s] gmake: *** [Makefile:146: all] Error 2
+[12.125s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

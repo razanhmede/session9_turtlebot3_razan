@@ -1,129 +1,161 @@
 #include "turtlebot3robotcpp/lap_time_server.hpp"
+#include <chrono>
+#include <cmath>
+#include <mutex>
+#include <thread>
 
-LapTimeServer::LapTimeServer()
-: Node("lap_time_server"),
-  current_position_(0.0f, 0.0f),
-  lap_active_(false)
-{
-    callback_group_ = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
+using MeasureLapTime = navigation_robot_custom_interfaces::action::MeasureLapTime;
+using GoalHandleMeasureLapTime = rclcpp_action::ServerGoalHandle<MeasureLapTime>;
 
-    // Create action server
-    action_server_ = rclcpp_action::create_server<MeasureLapTime>(
+LapTimeServer::LapTimeServer() : Node("lap_time_server") {
+    using namespace std::placeholders;
+
+    // Create callback groups
+    service_cb_group = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+    subscription_cb_group = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+    timer_cb_group = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+
+    // Initialize action server
+    this->action_server = rclcpp_action::create_server<MeasureLapTime>(
         this,
-        "measure_lap_time",
-        [this](const std::shared_ptr<rclcpp_action::ServerGoalHandle<MeasureLapTime>> goal_handle) {
-            std::thread([this, goal_handle]() {
-                this->execute_callback(goal_handle);
-            }).detach();
-        },
-        [](const std::shared_ptr<GoalHandleMeasureLapTime::Feedback> feedback) {
-            // Handle feedback (if needed)
-        },
-        [](const std::shared_ptr<GoalHandleMeasureLapTime::Result> result) {
-            // Handle result (if needed)
-        }
+        "lap_time",
+        std::bind(&LapTimeServer::handle_goal, this, _1, _2),
+        std::bind(&LapTimeServer::handle_cancel, this, _1),
+        std::bind(&LapTimeServer::handle_accepted, this, _1),
+        rcl_action_server_get_default_options(),
+        service_cb_group
     );
 
-    // Create subscription for odometry data
-    odometry_subscription_ = this->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(
-        "odometry",
-        rclcpp::QoS(10),
-        [this](const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg) {
-            this->odometry_callback(msg);
-        }
+    // Initialize odometry subscriber
+    auto subscription_options = rclcpp::SubscriptionOptions();
+    subscription_options.callback_group = subscription_cb_group;
+    subscriber = this->create_subscription<nav_msgs::msg::Odometry>(
+        "/odom",
+        10,
+        std::bind(&LapTimeServer::odometry_callback, this, _1),
+        subscription_options
     );
-    
-    this->get_logger().info("LapTime server started!");
+
+    // Initialize variables
+    x = y = start_x = start_y = 2.0;
+    feedback_msg = std::make_shared<MeasureLapTime::Feedback>();
+
+    RCLCPP_INFO(this->get_logger(), "MeasureLapTime server started. Ready for requests.");
 }
 
-void LapTimeServer::odometry_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg)
-{
-    current_position_ = std::make_tuple(msg->pose.pose.position.x, msg->pose.pose.position.y);
-    current_time_ = this->now();
+void LapTimeServer::odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
+    std::lock_guard<std::mutex> lock(odom_mutex_);
+    x = msg->pose.pose.position.x;
+    y = msg->pose.pose.position.y;
 }
 
-void LapTimeServer::execute_callback(const GoalHandleMeasureLapTime::SharedPtr goal_handle)
-{
-    RCLCPP_INFO(this->get_logger(), "LapTime request received. Waiting for robot to get to the starting point");
+rclcpp_action::GoalResponse LapTimeServer::handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<const MeasureLapTime::Goal> goal) {
+    RCLCPP_INFO(this->get_logger(), "Received goal request.");
+    (void)uuid;
+    (void)goal;
+    return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+}
 
-    if (!wait_for_starting_point()) {
-        goal_handle->abort(std::make_shared<MeasureLapTime::Result>());
+rclcpp_action::CancelResponse LapTimeServer::handle_cancel(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
+    RCLCPP_INFO(this->get_logger(), "Received request to cancel goal.");
+    (void)goal_handle;
+    return rclcpp_action::CancelResponse::ACCEPT;
+}
+
+void LapTimeServer::handle_accepted(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
+    using namespace std::placeholders;
+    std::thread{std::bind(&LapTimeServer::execute, this, _1), goal_handle}.detach();
+}
+
+void LapTimeServer::execute(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
+    RCLCPP_INFO(this->get_logger(), "Waiting for robot to reach starting point...");
+
+    // Wait for the robot to reach the starting point
+    while (rclcpp::ok() && !goal_handle->is_canceling() && !is_near_start_position()) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    }
+
+    if (goal_handle->is_canceling()) {
+        RCLCPP_INFO(this->get_logger(), "Goal canceled before reaching the starting point.");
         return;
     }
 
-    start_time_ = this->now();
-    lap_active_ = true;
-    auto feedback_msg = std::make_shared<MeasureLapTime::Feedback>();
+    RCLCPP_INFO(this->get_logger(), "Robot reached starting point.");
+    start_x = x;
+    start_y = y;
+    start_time = this->now();  // Use ROS time here
 
-    // Timer callback to send feedback at regular intervals
-    feedback_timer_ = this->create_wall_timer(
-        200ms,
-        [this, goal_handle, feedback_msg]() {
-            if (!lap_active_) {
-                return;
+    // Create timer to publish feedback
+    timer = this->create_wall_timer(
+        std::chrono::milliseconds(500),
+        [this, goal_handle]() { this->publish_elapsed_time(goal_handle); }, // Use lambda to capture `goal_handle`
+        timer_cb_group
+    );
+
+    bool lap_completed = false;
+    auto timeout_duration = std::chrono::minutes(1);  // Increase timeout duration
+    auto timeout_time = this->now() + rclcpp::Duration(timeout_duration);
+
+    // Main execution loop
+    while (rclcpp::ok() && !goal_handle->is_canceling()) {
+        // Check if the robot is near the start position and if the lap has not been completed yet
+        if (is_near_start_position() && !lap_completed && (this->now() - start_time) > rclcpp::Duration(1, 0)) {
+            // Ensure the robot is actually at the start position for a certain period before concluding
+            auto post_check_duration = rclcpp::Duration(5, 0); // 5 seconds for additional verification
+            auto check_start_time = this->now();
+            while (rclcpp::ok() && !goal_handle->is_canceling() && (this->now() - check_start_time) < post_check_duration) {
+                if (is_near_start_position()) {
+                    auto result = std::make_shared<MeasureLapTime::Result>();
+                    result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
+                    goal_handle->succeed(result);
+                    RCLCPP_INFO(this->get_logger(), "Goal succeeded. Total lap time: %f", result->total_time);
+                    lap_completed = true;
+                    return;
+                }
+                std::this_thread::sleep_for(std::chrono::milliseconds(100));
             }
-            feedback_msg->elapsed_time = (this->now() - start_time_).seconds();
-            goal_handle->publish_feedback(feedback_msg);
         }
-    );
 
-    if (!wait_for_lap_completion()) {
-        goal_handle->abort(std::make_shared<MeasureLapTime::Result>());
-        return;
-    }
-
-    auto result = std::make_shared<MeasureLapTime::Result>();
-    result->total_time = (this->now() - start_time_).seconds();
-    lap_active_ = false;
-    goal_handle->succeed(result);
-}
-
-bool LapTimeServer::wait_for_starting_point()
-{
-    float tolerance = 0.1f;
-    float start_x, start_y;
-    std::tie(start_x, start_y) = current_position_;
-
-    while (!is_at_starting_point(start_x, start_y, tolerance)) {
-        rclcpp::spin_some(this->get_node_base_interface());
-    }
-
-    RCLCPP_INFO(this->get_logger(), "Robot is at the starting point. Starting lap timing.");
-    return true;
-}
-
-bool LapTimeServer::is_at_starting_point(float start_x, float start_y, float tolerance)
-{
-    float current_x, current_y;
-    std::tie(current_x, current_y) = current_position_;
-    float distance = std::sqrt(std::pow(current_x - start_x, 2) + std::pow(current_y - start_y, 2));
-    return distance < tolerance;
-}
-
-bool LapTimeServer::wait_for_lap_completion()
-{
-    float start_x, start_y;
-    std::tie(start_x, start_y) = current_position_;
-    float tolerance = 0.1f;
-    int laps_needed = 1;
-
-    RCLCPP_INFO(this->get_logger(), "Waiting for the robot to complete the lap...");
-    while (laps_needed > 0) {
-        if (is_at_starting_point(start_x, start_y, tolerance)) {
-            RCLCPP_INFO(this->get_logger(), "Robot has reached the starting point again. Laps left: %d", laps_needed - 1);
-            laps_needed--;
+        // Check for timeout
+        if (this->now() > timeout_time) {
+            auto result = std::make_shared<MeasureLapTime::Result>();
+            result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
+            goal_handle->canceled(result);
+            RCLCPP_INFO(this->get_logger(), "Goal canceled due to timeout.");
+            return;
         }
-        rclcpp::spin_some(this->get_node_base_interface());
+
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 
-    RCLCPP_INFO(this->get_logger(), "Lap completed.");
-    return true;
+    // Handle cancellation
+    if (goal_handle->is_canceling()) {
+        auto result = std::make_shared<MeasureLapTime::Result>();
+        result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
+        goal_handle->canceled(result);
+        RCLCPP_INFO(this->get_logger(), "Goal canceled.");
+    }
 }
 
-int main(int argc, char * argv[])
-{
+void LapTimeServer::publish_elapsed_time(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
+    feedback_msg->elapsed_time = (this->now() - start_time).seconds(); // Get time in seconds
+    goal_handle->publish_feedback(feedback_msg);
+}
+
+bool LapTimeServer::is_near_start_position() {
+    std::lock_guard<std::mutex> lock(odom_mutex_);
+    double distance = std::sqrt(std::pow(x - start_x, 2) + std::pow(y - start_y, 2));
+    return distance < 0.5; 
+}
+
+int main(int argc, char * argv[]) {
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<LapTimeServer>());
+    auto server_node = std::make_shared<LapTimeServer>();
+    rclcpp::executors::MultiThreadedExecutor executor;
+    executor.add_node(server_node);
+    executor.spin();
     rclcpp::shutdown();
     return 0;
 }
+
+

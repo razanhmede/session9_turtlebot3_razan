@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.083s] [ 12%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.085s] [ 37%] Built target robot_driver_node
+[0.094s] [ 62%] Built target wall_finder_server
+[0.111s] [ 75%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[3.339s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:8:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass LapTimeClient[m[K’
+[3.339s]     8 | class [01;31m[KLapTimeClient[m[K : public rclcpp::Node {
+[3.339s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[3.339s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:1[m[K:
+[3.339s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_client.hpp:9:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass LapTimeClient[m[K’
+[3.339s]     9 | class [01;36m[KLapTimeClient[m[K : public rclcpp::Node
+[3.340s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.344s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.345s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_client.cpp:87:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class LapTimeClient[m[K’ {aka ‘[01m[Kclass LapTimeClient[m[K’} has no member named ‘[01m[KsendGoal[m[K’; did you mean ‘[01m[Ksend_goal[m[K’?
+[3.345s]    87 |     client_node->[01;31m[KsendGoal[m[K();
+[3.345s]       |                  [01;31m[K^~~~~~~~[m[K
+[3.345s]       |                  [32m[Ksend_goal[m[K
+[3.583s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:[m[K In constructor ‘[01m[KLapTimeServer::LapTimeServer()[m[K’:
+[3.583s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:11:96:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[3.584s]    11 |     service_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[3.584s]       |                                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.584s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:12:101:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[3.584s]    12 |     subscription_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[3.584s]       |                                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.584s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:13:94:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType::MutuallyExclusive[m[K’ cannot be used as a function
+[3.584s]    13 |     timer_cb_group = this->create_callback_group([01;31m[Krclcpp::CallbackGroupType::MutuallyExclusive()[m[K);
+[3.584s]       |                                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.008s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+[4.008s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[4.008s] gmake[1]: *** Waiting for unfinished jobs....
+[6.852s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[6.852s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[6.852s] gmake: *** [Makefile:146: all] Error 2
+[6.855s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/turtlebot3robotcpp:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.084s] [ 33%] Built target robot_driver_node
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[0.191s] [ 83%] Built target wall_finder_server
+[3.101s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:5:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KLapTimeServer::LapTimeServer()[m[K’
+[3.101s]     5 | [01;31m[KLapTimeServer[m[K::LapTimeServer()
+[3.101s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[3.101s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[3.101s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:13:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KLapTimeServer::LapTimeServer(LapTimeServer&&)[m[K’
+[3.102s]    13 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node {
+[3.102s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.102s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:13:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeServer::LapTimeServer(const LapTimeServer&)[m[K’
+[3.102s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:18:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KLapTimeServer::LapTimeServer(const string&)[m[K’
+[3.102s]    18 |     [01;36m[KLapTimeServer[m[K(const std::string &name);  // Constructor declaration
+[3.102s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[3.102s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LapTimeServer[m[K’ defined here
+[3.102s]    13 | class [01;36m[KLapTimeServer[m[K : public rclcpp::Node {
+[3.102s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.139s] In file included from [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:1[m[K:
+[3.139s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:[m[K In constructor ‘[01m[KLapTimeServer::LapTimeServer(const string&)[m[K’:
+[3.139s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:37:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KLapTimeServer::action_server_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.139s]    37 |     rclcpp_action::Server<MeasureLapTime>::SharedPtr [01;35m[Kaction_server_[m[K;
+[3.139s]       |                                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.140s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/include/turtlebot3robotcpp/lap_time_server.hpp:35:38:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::CallbackGroup::SharedPtr LapTimeServer::timer_callback_group_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.140s]    35 |     rclcpp::CallbackGroup::SharedPtr [01;35m[Ktimer_callback_group_[m[K;
+[3.140s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.140s] [01m[K/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/src/turtlebot3robotcpp/src/lap_time_server.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.140s]     9 | [01;35m[KLapTimeServer[m[K::LapTimeServer(const std::string &name)
+[3.140s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[4.062s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[4.062s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lap_time_server.dir/all] Error 2
+[4.063s] gmake: *** [Makefile:146: all] Error 2
+[4.068s] Invoked command in '/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp' returned '2': AMENT_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/razanhmede/session9_turtlebot3_razan/session9_turtlebot3_assignmentcpp/build/turtlebot3robotcpp -- -j4 -l4

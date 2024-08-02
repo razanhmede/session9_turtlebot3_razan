@@ -17,6 +17,20 @@ def generate_launch_description():
             name='robot_driver_node',
             output='screen',
         ),
+        # Node for the Laptime server
+        Node(
+            package='turtlebot3robotcpp',
+            executable='lap_time_server',
+            name='lap_time_server',
+            output='screen',
+        ),
+        # Node for the Laptime client
+        Node(
+            package='turtlebot3robotcpp',
+            executable='lap_time_client',
+            name='lap_time_client',
+            output='screen',
+        ),
     ])
 
 
