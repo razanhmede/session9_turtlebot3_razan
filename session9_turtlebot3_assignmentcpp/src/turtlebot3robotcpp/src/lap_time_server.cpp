@@ -83,18 +83,18 @@ void LapTimeServer::execute(const std::shared_ptr<GoalHandleMeasureLapTime> goal
     RCLCPP_INFO(this->get_logger(), "Robot reached starting point.");
     start_x = x;
     start_y = y;
-    start_time = this->now();  // Use ROS time here
+    start_time = this->now(); 
 
     // Create timer to publish feedback
     timer = this->create_wall_timer(
         std::chrono::milliseconds(500),
-        [this, goal_handle]() { this->publish_elapsed_time(goal_handle); }, // Use lambda to capture `goal_handle`
+        [this, goal_handle]() { this->publish_elapsed_time(goal_handle); }, 
         timer_cb_group
     );
 
     bool lap_completed = false;
-    auto timeout_duration = std::chrono::minutes(1);  // Increase timeout duration
-    auto timeout_time = this->now() + rclcpp::Duration(timeout_duration);
+    
+    
 
     // Main execution loop
     while (rclcpp::ok() && !goal_handle->is_canceling()) {
@@ -106,7 +106,7 @@ void LapTimeServer::execute(const std::shared_ptr<GoalHandleMeasureLapTime> goal
             while (rclcpp::ok() && !goal_handle->is_canceling() && (this->now() - check_start_time) < post_check_duration) {
                 if (is_near_start_position()) {
                     auto result = std::make_shared<MeasureLapTime::Result>();
-                    result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
+                    result->total_time = (this->now() - start_time).seconds(); 
                     goal_handle->succeed(result);
                     RCLCPP_INFO(this->get_logger(), "Goal succeeded. Total lap time: %f", result->total_time);
                     lap_completed = true;
@@ -116,29 +116,21 @@ void LapTimeServer::execute(const std::shared_ptr<GoalHandleMeasureLapTime> goal
             }
         }
 
-        // Check for timeout
-        if (this->now() > timeout_time) {
-            auto result = std::make_shared<MeasureLapTime::Result>();
-            result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
-            goal_handle->canceled(result);
-            RCLCPP_INFO(this->get_logger(), "Goal canceled due to timeout.");
-            return;
-        }
-
+        
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 
     // Handle cancellation
     if (goal_handle->is_canceling()) {
         auto result = std::make_shared<MeasureLapTime::Result>();
-        result->total_time = (this->now() - start_time).seconds(); // Get time in seconds
+        result->total_time = (this->now() - start_time).seconds(); 
         goal_handle->canceled(result);
         RCLCPP_INFO(this->get_logger(), "Goal canceled.");
     }
 }
 
 void LapTimeServer::publish_elapsed_time(const std::shared_ptr<GoalHandleMeasureLapTime> goal_handle) {
-    feedback_msg->elapsed_time = (this->now() - start_time).seconds(); // Get time in seconds
+    feedback_msg->elapsed_time = (this->now() - start_time).seconds(); 
     goal_handle->publish_feedback(feedback_msg);
 }
 

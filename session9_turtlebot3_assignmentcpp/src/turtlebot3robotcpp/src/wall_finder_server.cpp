@@ -5,7 +5,7 @@
 #include <limits>
 #include <numeric>
 #include <vector>
-#include <thread> // For std::this_thread::sleep_for
+#include <thread> 
 
 using namespace std::chrono_literals;
 
@@ -33,7 +33,7 @@ WallFinder::WallFinder()
 }
 
 WallFinder::~WallFinder() {
-    // Clean-up resources if needed
+    
 }
 
 void WallFinder::scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
@@ -55,7 +55,7 @@ void WallFinder::scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg) 
     if (min_distance != std::numeric_limits<float>::infinity()) {
         closest_wall_x_ = min_distance * cos(angle_of_min_distance);
         closest_wall_y_ = min_distance * sin(angle_of_min_distance);
-        closest_wall_z_ = 0.0f;  // Assuming 2D environment; adjust if needed
+        closest_wall_z_ = 0.0f;  
     } else {
         RCLCPP_INFO(this->get_logger(), "No valid wall detected.");
     }
@@ -85,14 +85,14 @@ void WallFinder::findWallCallback(
     RCLCPP_INFO(this->get_logger(), "Incoming FindClosestWall request.");
 
     scanning_ = true;
-    // Set a timer to stop scanning after a certain duration
-    auto scan_duration = std::chrono::seconds(5); // Example: 5 seconds
+    // Set a timer to stop scanning after a 5sec
+    auto scan_duration = std::chrono::seconds(5); 
     auto scan_end_time = std::chrono::high_resolution_clock::now() + scan_duration;
 
     while (scanning_) {
-        std::this_thread::sleep_for(100ms); // Avoid busy waiting, sleep for 100ms
+        std::this_thread::sleep_for(100ms); 
 
-        // Check if the scanning should be stopped based on time
+        
         if (std::chrono::high_resolution_clock::now() >= scan_end_time) {
             scanning_ = false;
         }
@@ -109,9 +109,9 @@ void WallFinder::findWallCallback(
         auto scan_end_time = std::chrono::high_resolution_clock::now() + scan_duration;
 
         while (scanning_) {
-            std::this_thread::sleep_for(100ms); // Avoid busy waiting, sleep for 100ms
+            std::this_thread::sleep_for(100ms); 
 
-            // Check if the scanning should be stopped based on time
+           
             if (std::chrono::high_resolution_clock::now() >= scan_end_time) {
                 scanning_ = false;
             }

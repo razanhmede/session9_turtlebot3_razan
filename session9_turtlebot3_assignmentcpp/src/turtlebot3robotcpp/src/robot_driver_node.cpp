@@ -32,9 +32,9 @@ RobotDriver::RobotDriver() : Node("robot_driver_node") {
 
     subscriber = this->create_subscription<sensor_msgs::msg::LaserScan>(
         "/scan", 
-        rclcpp::QoS(10), // Use rclcpp::QoS instead of rclcpp::SensorDataQoS
+        rclcpp::QoS(10), 
         std::bind(&RobotDriver::scan_callback, this, std::placeholders::_1),
-        subscription_options // Use SubscriptionOptions with callback group
+        subscription_options 
     );
 
     // Create timer

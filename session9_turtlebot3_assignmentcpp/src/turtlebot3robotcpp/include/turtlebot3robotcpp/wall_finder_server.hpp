@@ -20,8 +20,6 @@ private:
 
     bool determineRotationDirection();
     bool hasFoundCorrectDirection();
-
-    // Member variables
     bool scanning_;
     float closest_wall_x_;
     float closest_wall_y_;

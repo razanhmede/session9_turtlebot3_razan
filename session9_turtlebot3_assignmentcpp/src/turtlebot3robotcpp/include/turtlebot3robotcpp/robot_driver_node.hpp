@@ -21,8 +21,6 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscriber;
     rclcpp::Client<navigation_robot_custom_interfaces::srv::FindClosestWall>::SharedPtr client;
     rclcpp::TimerBase::SharedPtr timer;
-    
-    // Callback groups
     rclcpp::CallbackGroup::SharedPtr timer_callback_group;
     rclcpp::CallbackGroup::SharedPtr subscription_callback_group;
 };
